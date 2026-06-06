@@ -1,5 +1,5 @@
 # Ballina Adventure Park — Paintball
-**ABN 91 879 831 927**
+**ABN 91 879 831 927** · ian@paintballskirmishballinabyron.com.au · 0403 548 322
 
 Risk Warning, Waiver, Release & Indemnity (NSW) — under the Paintball Act 2018 (NSW), Paintball Regulation 2019 (NSW), Civil Liability Act 2002 (NSW) and the Australian Consumer Law.
 
@@ -47,7 +47,7 @@ In consideration of being permitted to take part, I (and, if I am under 18, my p
 
 ## 4. Privacy
 
-*Ballina Adventure Park collects the personal information (and any health information) on this form to identify participants, assess fitness to play, manage safety and emergencies, meet its insurance and legal obligations, and contact you. It is held securely, is not sold, and is not disclosed except where reasonably necessary for these purposes or as required by law. You may request access to, or correction of, your information by contacting us. By signing, I consent to Ballina Adventure Park collecting and using this information, including any health information I provide (Privacy Act 1988 (Cth), Australian Privacy Principles).*
+*Ballina Adventure Park collects the personal information (and any health information) on this form to identify participants, assess fitness to play, manage safety and emergencies, meet its insurance and legal obligations, and contact you. It is held securely, is not sold, and is not disclosed except where reasonably necessary for these purposes or as required by law. You may request access to, or correction of, your information by contacting us at ian@paintballskirmishballinabyron.com.au or 0403 548 322. By signing, I consent to Ballina Adventure Park collecting and using this information, including any health information I provide (Privacy Act 1988 (Cth), Australian Privacy Principles).*
 
 ---
 
@@ -61,7 +61,9 @@ Participant signature: ______________________________   Date: ________________
 
 ### Parent / guardian consent — required if the participant is under 18
 
-I am the parent/guardian with parental responsibility for the participant. I have read this form, I have explained the risks to the participant, I consent to their participation, and I agree to the risk warning, release, exclusions and indemnity in Sections 2–3 both on the participant's behalf and in my own right.
+*Must be signed by a parent or legal guardian with parental responsibility for the participant — not another accompanying adult. A parent/guardian who cannot attend may complete and sign this form in advance.*
+
+I confirm I am the parent or legal guardian with parental responsibility for the participant. I have read this form, I have explained the risks to the participant, I consent to their participation, and I agree to the risk warning, release, exclusions and indemnity in Sections 2–3 both on the participant's behalf and in my own right.
 
 Name: ____________________   Phone: ________________   Signature: ____________________   Date: ____________
 
