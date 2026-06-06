@@ -17,14 +17,16 @@ Emergency contact (name): ____________________   Phone: ____________________
 
 ## 2. Risk warning & acknowledgment of risk *(Civil Liability Act 2002 (NSW), ss 5F–5M)*
 
-> **WARNING — PAINTBALL IS A DANGEROUS RECREATIONAL ACTIVITY THAT INVOLVES A SIGNIFICANT RISK OF PHYSICAL HARM.** By taking part you may be exposed to risks including, but not limited to: being struck by paintballs fired at high speed (causing bruising, welts, eye, ear or dental injury); slips, trips and falls on uneven, wet or obstacle-filled terrain; collisions with other people, structures or equipment; equipment failure or malfunction; over-exertion, heat, cold and weather; and the careless or deliberate conduct of other participants. These activities carry a risk of serious permanent injury, disability or death.
+> **WARNING — PAINTBALL IS A DANGEROUS RECREATIONAL ACTIVITY THAT INVOLVES A SIGNIFICANT RISK OF PHYSICAL HARM.** Our course is set in natural Australian bushland and by taking part you may be exposed to risks including, but not limited to: being struck by paintballs fired at high speed (causing bruising, welts, eye, ear or dental injury); the **natural bush environment and uneven terrain** — sloping and uneven ground, holes, rocks, tree roots, fallen timber, stumps, branches, scrub and undergrowth, which can cause trips, falls, cuts, abrasions and eye injury; contact with **native wildlife** such as snakes, spiders, ticks, ants and other insects; collisions with other people, structures or equipment; equipment failure or malfunction; over-exertion, heat, cold and weather; and the careless or deliberate conduct of other participants. These activities carry a risk of serious permanent injury, disability or death.
 
 I confirm that I:
 
 - am at least **12 years old** (the minimum age under NSW law), and if under 18 my parent or guardian has signed Section 5;
 - am medically and physically fit to take part, am not affected by alcohol or drugs, and have disclosed any condition that may affect my safety;
-- will wear the protective equipment provided at all times in the playing area and will obey all safety rules, signage and staff instructions;
+- have completed the video safety induction (including **mandatory mask/eye-protection wearing** and the safety briefing), will keep my mask on at all times in the playing area, and will obey all safety rules, signage and staff instructions;
 - understand and voluntarily accept all of the above risks, including risks that may arise from the negligence of the Releasees, and that failure to follow the rules may result in injury or removal without refund.
+
+**Medical:** Do you have any injury, illness, allergy or medical condition we should know about (e.g. heart condition, asthma, bleeding disorder, eye condition, pregnancy)?  No ☐  Yes ☐ — if Yes, please tell staff before playing: ____________________
 
 ---
 
@@ -61,7 +63,7 @@ Participant signature: ______________________________   Date: ________________
 
 I am the parent/guardian with parental responsibility for the participant. I have read this form, I have explained the risks to the participant, I consent to their participation, and I agree to the risk warning, release, exclusions and indemnity in Sections 2–3 both on the participant's behalf and in my own right.
 
-Name: ____________________   Signature: ____________________   Date: ____________
+Name: ____________________   Phone: ________________   Signature: ____________________   Date: ____________
 
 ---
 

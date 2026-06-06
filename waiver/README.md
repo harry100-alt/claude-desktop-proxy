@@ -39,6 +39,12 @@ because no single one covers everything:
 - Added a **privacy notice** (APP 5 collection notice).
 - Strengthened the **minor consent** so the guardian is personally bound.
 - Added the **reckless-conduct carve-out** and a **severance** clause.
+- Spelled out the **natural bushland / uneven-terrain and native-wildlife hazards** so they count as
+  "obvious risks" under s 5L (the leading NSW paintball case, *Action Paintball Games Pty Ltd v Barker*
+  [2013] NSWCA 128, also concerned a natural-obstacle field).
+- Added a short **medical declaration**, a **guardian phone** field, and a confirmation that the participant
+  completed the **video safety induction** (mandatory mask wearing + safety briefing — tracked on the
+  separate induction form).
 
 ## ⚠️ Not legal advice
 This is a researched template, not legal advice. Have it reviewed and signed off by an
