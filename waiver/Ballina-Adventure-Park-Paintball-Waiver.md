@@ -23,7 +23,7 @@ I confirm that I:
 
 - am at least **12 years old** (the minimum age under NSW law), and if under 18 my parent or guardian has signed Section 5;
 - am medically and physically fit to take part, am not affected by alcohol or drugs, and have disclosed any condition that may affect my safety;
-- have completed the video safety induction (including **mandatory mask/eye-protection wearing** and the safety briefing), will keep my mask on at all times in the playing area, and will obey all safety rules, signage and staff instructions;
+- will watch and follow the video safety induction before playing (covering **mandatory mask/eye-protection wearing** and the safety briefing), will keep my mask on at all times in the playing area, and will obey all safety rules, signage and staff instructions;
 - understand and voluntarily accept all of the above risks, including risks that may arise from the negligence of the Releasees, and that failure to follow the rules may result in injury or removal without refund.
 
 **Medical:** Do you have any injury, illness, allergy or medical condition we should know about (e.g. heart condition, asthma, bleeding disorder, eye condition, pregnancy)?  No ☐  Yes ☐ — if Yes, please tell staff before playing: ____________________
@@ -47,7 +47,7 @@ In consideration of being permitted to take part, I (and, if I am under 18, my p
 
 ## 4. Privacy
 
-*Ballina Adventure Park collects the personal information on this form to identify participants, manage safety and emergencies, meet its insurance and legal obligations, and contact you. It is held securely, is not sold, and is disclosed only where reasonably necessary for these purposes or as required by law. You may request access or correction by contacting the Park. See our Privacy Policy for details (Privacy Act 1988 (Cth), Australian Privacy Principles).*
+*Ballina Adventure Park collects the personal information (and any health information) on this form to identify participants, assess fitness to play, manage safety and emergencies, meet its insurance and legal obligations, and contact you. It is held securely, is not sold, and is not disclosed except where reasonably necessary for these purposes or as required by law. You may request access to, or correction of, your information by contacting us. By signing, I consent to Ballina Adventure Park collecting and using this information, including any health information I provide (Privacy Act 1988 (Cth), Australian Privacy Principles).*
 
 ---
 

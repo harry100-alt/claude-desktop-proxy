@@ -42,9 +42,26 @@ because no single one covers everything:
 - Spelled out the **natural bushland / uneven-terrain and native-wildlife hazards** so they count as
   "obvious risks" under s 5L (the leading NSW paintball case, *Action Paintball Games Pty Ltd v Barker*
   [2013] NSWCA 128, also concerned a natural-obstacle field).
-- Added a short **medical declaration**, a **guardian phone** field, and a confirmation that the participant
-  completed the **video safety induction** (mandatory mask wearing + safety briefing — tracked on the
-  separate induction form).
+- Added a short **medical declaration**, a **guardian phone** field, and an undertaking that the participant
+  **will complete the video safety induction** before playing (mandatory mask wearing + safety briefing —
+  tracked on the separate induction form). Worded as a forward undertaking because the form is signed
+  *before* the video, and so the waiver works as a standalone document.
+
+## Privacy: do you need a separate Privacy Policy?
+The form's privacy paragraph is a **self-contained collection notice** (APP 5) plus **consent** to collect the
+health/sensitive info in the medical line — it does **not** rely on a separate Privacy Policy document.
+
+Whether you're legally required to have a full Privacy Policy:
+- The **Privacy Act 1988 (Cth)** generally only binds businesses with **annual turnover over $3 million**.
+  As at June 2026 that **small-business exemption still applies**, so a sub-$3M paintball operator is likely
+  **not legally required** to have a Privacy Policy *yet*.
+- Collecting a fitness/medical declaration is unlikely to make you a "health service provider" (the exception
+  that strips the exemption), so that trigger probably doesn't bite — but you are collecting **sensitive
+  (health) information**, so getting **consent** (now built into the form) and only collecting what you need
+  is best practice regardless.
+- **This is changing:** the Government's Tranche 2 privacy reforms are expected to **remove the small-business
+  exemption in 2026–2027**. When that lands, you'll likely need a public Privacy Policy. Worth putting a simple
+  one on your website ahead of time; it's cheap insurance and good for customer trust.
 
 ## ⚠️ Not legal advice
 This is a researched template, not legal advice. Have it reviewed and signed off by an
