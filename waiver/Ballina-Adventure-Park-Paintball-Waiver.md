@@ -9,9 +9,11 @@ Risk Warning, Waiver, Release & Indemnity (NSW) — under the Paintball Act 2018
 
 Full name: ______________________________   Date of birth: ________________
 
-Mobile: ____________________   Email: ____________________________
+Mobile: ____________________   Email (optional): ____________________________
 
 Emergency contact (name): ____________________   Phone: ____________________
+
+Marketing (optional): ☐ Yes, I'd like to receive news, offers and promotions from Ballina Adventure Park by email. I can unsubscribe at any time. (Leave unticked if you'd prefer not to.)
 
 ---
 
