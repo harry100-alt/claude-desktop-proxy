@@ -66,7 +66,3 @@ Participant signature: ______________________________   Date: ________________
 I confirm I am the parent or legal guardian with parental responsibility for the participant. I have read this form, I have explained the risks to the participant, I consent to their participation, and I agree to the risk warning, release, exclusions and indemnity in Sections 2–3 both on the participant's behalf and in my own right.
 
 Name: ____________________   Phone: ________________   Signature: ____________________   Date: ____________
-
----
-
-*Form v2 — June 2026. General template only; have it reviewed by an Australian solicitor before use.*
