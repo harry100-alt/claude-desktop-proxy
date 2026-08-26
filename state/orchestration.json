@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updated": "2026-08-26T09:36:18Z",
+  "threads": [
+    {
+      "id": "orchestration-bootstrap",
+      "title": "Persistent cross-conversation orchestration",
+      "status": "open",
+      "branch": "claude/persistent-orchestration-conversations-hezpwa",
+      "notes": "Protocol lives in .claude/orchestration/protocol.md and is injected into every session by the SessionStart hook. The protocol body is a starting skeleton — tune sections 2-6 to match how this project should actually be run."
+    }
+  ]
+}

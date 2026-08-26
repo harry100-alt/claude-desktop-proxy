@@ -1,0 +1,6 @@
+# Build artifacts
+/claude-desktop-proxy
+*.exe
+
+# Per-conversation orchestration opt-out (local only, never committed)
+.claude/orchestration/DISABLED
