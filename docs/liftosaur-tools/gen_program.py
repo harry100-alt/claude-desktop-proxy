@@ -118,6 +118,7 @@ out.append("""/// Upper-Body Hypertrophy, 3 days a week. Arms priority. Machines
 // * Every exercise note starts with a colour. 🟢 MAIN = presses and pulls, never skip. 🟠 ARMS = the pair, 45 sec between. ⚪ EXTRA = delts, flyes, legs, cut these if short on time.
 // * Weeks 1 to 3: stop 3 to 4 reps short of failure. From week 4: 1 to 2 short. Last set of arm work can go to failure.
 // * Progression is automatic: complete every prescribed rep and the app adds a rep next time, then weight at the top of the range.
+// * Tired day and you lowered the weight? After the last set of that exercise tap **Suppress** next to the progress note, so next session keeps your normal numbers. Otherwise the app builds on the lighter weight.
 // * Ramp-up sets are built in where needed. Nothing else needs a warm-up.
 // * Every exercise note names its substitute and shows a video for both. Machine taken? Tap the exercise, Swap Exercise, pick the named one from the program list. It brings its own weight and progression.
 // * Outside the gym: 1.6 to 2.2 g protein per kg, small calorie surplus, 3 to 5 g creatine daily, 7 to 9 hours sleep.
