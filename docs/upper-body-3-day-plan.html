@@ -5,19 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Upper-Body Hypertrophy, 3 Days a Week</title>
 <style>
-  :root { --ink:#1b1b1b; --muted:#5c5c5c; --line:#e3e3e3; --accent:#0b5fff; --bg:#fff; --card:#f6f7f9; }
+  :root { --ink:#1b1b1b; --muted:#5c5c5c; --line:#e3e3e3; --accent:#0b5fff; --bg:#fff; --card:#f6f7f9; --first:#0a7f3f; --mid:#b26a00; --last:#8a8a8a; }
   * { box-sizing: border-box; }
   body { margin:0; padding:20px 16px 40px; font:15px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:var(--ink); background:var(--bg); max-width:720px; margin-inline:auto; }
   h1 { font-size:24px; margin:0 0 4px; }
   .sub { color:var(--muted); margin:0 0 18px; }
   h2 { font-size:19px; margin:26px 0 8px; padding-bottom:4px; border-bottom:2px solid var(--ink); }
-  h3 { font-size:15px; margin:14px 0 6px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
   .box { background:var(--card); border-radius:10px; padding:12px 14px; margin:10px 0; }
   .box ul { margin:6px 0 0; padding-left:18px; }
   .box li { margin:4px 0; }
   .box b { color:var(--ink); }
+  .tier { display:flex; align-items:center; gap:8px; margin:14px 0 2px; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; }
+  .tier span { color:var(--muted); font-weight:500; text-transform:none; letter-spacing:0; }
+  .tier.first { color:var(--first); }
+  .tier.mid { color:var(--mid); }
+  .tier.last { color:var(--last); }
   .ex { display:grid; grid-template-columns: 1fr auto; gap:2px 10px; padding:10px 0; border-bottom:1px solid var(--line); page-break-inside:avoid; }
-  .ex:last-child { border-bottom:none; }
+  .ex.end { border-bottom:none; }
   .ex .name { font-weight:600; }
   .ex .alt { color:var(--muted); font-weight:400; font-size:13px; }
   .ex .dose { font-variant-numeric: tabular-nums; white-space:nowrap; font-weight:600; text-align:right; }
@@ -25,9 +29,9 @@
   .ex .cue { grid-column:1 / -1; color:var(--muted); font-size:13px; }
   .ex a { color:var(--accent); text-decoration:none; font-weight:600; font-size:13px; }
   .ex a:before { content:"▶ "; }
-  .day { background:#fff; border:1px solid var(--line); border-radius:12px; padding:4px 14px 6px; margin:12px 0; }
+  .day { background:#fff; border:1px solid var(--line); border-radius:12px; padding:4px 14px 8px; margin:12px 0; }
   .day h2 { border:none; margin:10px 0 2px; font-size:18px; }
-  .day .focus { color:var(--muted); font-size:13px; margin:0 0 6px; }
+  .day .focus { color:var(--muted); font-size:13px; margin:0 0 4px; }
   table { border-collapse:collapse; width:100%; font-size:14px; }
   td, th { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
   th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:.04em; }
@@ -38,19 +42,21 @@
 <body>
 
 <h1>Upper-Body Hypertrophy, 3 Days a Week</h1>
-<p class="sub">Full-body layout with an upper-body bias. Chest, back, and arms are trained every session. One leg movement per day. No squat rack needed. About 60 to 70 minutes per session.</p>
+<p class="sub">Full-body layout with an upper-body bias. Chest, back, and arms are trained every session. One leg movement per day. No squat rack needed. About 50 to 60 minutes per session.</p>
 
 <div class="box">
   <b>Read this first</b>
   <ul>
     <li><b>Schedule:</b> Mon / Wed / Fri or any three non-consecutive days. Do A, B, C in order.</li>
+    <li><b>Order:</b> each day is split into <b>First</b>, <b>Middle</b>, and <b>Last</b>. Do all of First before Middle, and Middle before Last. Within a group, any order is fine. Keep each exercise in the same part of the session week to week so your log stays comparable.</li>
+    <li><b>If a machine is taken:</b> do another exercise from the same group and come back, or swap in the listed alternative. Same movement pattern and rep range is what counts, not the machine. Only ever skip from the Last group, and never skip a press or a pull.</li>
     <li><b>Effort:</b> weeks 1 to 3 stop 3 to 4 reps short of failure while you learn form. From week 4, end every set 1 to 2 reps short of failure. The last set of any machine or isolation exercise can go to failure.</li>
-    <li><b>Progression:</b> when you hit the top of the rep range on all sets, add the smallest weight increment next session and build back up. This is the rule that makes the plan work. Log every set.</li>
-    <li><b>Rest:</b> 2 to 3 min on presses, rows, pulldowns, and leg movements. 60 to 90 sec on isolation work.</li>
+    <li><b>Progression:</b> when you hit the top of the rep range on <b>every</b> set, add the smallest weight increment next session and build back up. Until then, beat last time on at least one set. Log every set.</li>
+    <li><b>Rest:</b> 2 min on presses, rows, pulldowns, and leg movements. 60 to 90 sec on isolation work. Use a timer.</li>
+    <li><b>Warm-up:</b> 5 min easy skipping at home. At the gym, 2 light ramp-up sets on the first exercise of the day and 1 on the next press or pull. Ramp sets are half to three-quarters of working weight, easy, and do not count as sets. Nothing else needs a warm-up.</li>
+    <li><b>Save time:</b> pair the two arm exercises in the Middle group. One set of curls, 45 sec rest, one set of triceps, 45 sec rest, repeat.</li>
     <li><b>Tempo:</b> full range of motion. Lower under control for 2 to 3 seconds. Feel the stretch at the bottom of presses, curls, and extensions.</li>
-    <li><b>Warm-up:</b> 5 min easy cardio, then 1 to 2 lighter ramp-up sets on the first press and first pull of the day.</li>
-    <li><b>Deload:</b> every 6 to 8 weeks, or when two sessions in a row go backwards, do one week at half the sets with the same weights.</li>
-    <li><b>Substitutions:</b> if a machine is taken, swap for the alternative listed, or anything with the same movement pattern. Keep the rep range.</li>
+    <li><b>Deload:</b> every 6 to 8 weeks, or when most lifts go backwards for two weeks, do one week at half the sets with the same weights.</li>
   </ul>
 </div>
 
@@ -68,21 +74,15 @@
 <!-- DAY A -->
 <div class="day">
   <h2>Day A</h2>
-  <p class="focus">Chest press, vertical and horizontal pull, side delts, arms</p>
+  <p class="focus">Chest press, vertical and horizontal pull, arms, side delts, legs</p>
 
-  <div class="ex">
-    <div class="name">Hack squat <span class="alt">or leg press</span></div>
-    <div class="dose">3 × 8–12</div>
-    <div class="cue">Feet mid-platform, shoulder width. Go as deep as you can with heels down.</div>
-    <div class="rest">Rest 2–3 min</div>
-    <a href="https://www.youtube.com/watch?v=rYgNArpwE7E">Watch</a>
-  </div>
+  <div class="tier first">First <span>· never skip · 2 min rest</span></div>
 
   <div class="ex">
     <div class="name">Machine chest press <span class="alt">or flat dumbbell bench</span></div>
     <div class="dose">3 × 6–10</div>
     <div class="cue">Handles at mid-chest height. Let the handles come back to a full stretch, elbows about 45° from the body.</div>
-    <div class="rest">Rest 2–3 min</div>
+    <div class="rest">Rest 2 min</div>
     <a href="https://www.youtube.com/watch?v=NwzUje3z0qY">Watch</a>
   </div>
 
@@ -94,7 +94,7 @@
     <a href="https://www.youtube.com/watch?v=EUIri47Epcg">Watch</a>
   </div>
 
-  <div class="ex">
+  <div class="ex end">
     <div class="name">Seated cable row <span class="alt">neutral or close grip</span></div>
     <div class="dose">3 × 8–12</div>
     <div class="cue">Let the shoulder blades reach forward at the start, then pull to the lower ribs.</div>
@@ -102,49 +102,55 @@
     <a href="https://www.youtube.com/watch?v=UCXxvVItLoM">Watch</a>
   </div>
 
-  <div class="ex">
-    <div class="name">Dumbbell lateral raise <span class="alt">or cable lateral raise</span></div>
-    <div class="dose">3 × 12–15</div>
-    <div class="cue">Slight forward lean, lead with the elbows, stop at shoulder height. Light weight, no swinging.</div>
-    <div class="rest">Rest 60–90 sec</div>
-    <a href="https://www.youtube.com/watch?v=3VcKaXpzqRo">Watch</a>
-  </div>
+  <div class="tier mid">Middle <span>· arms · pair these, 45 sec between</span></div>
 
   <div class="ex">
     <div class="name">Incline dumbbell curl</div>
     <div class="dose">3 × 8–12</div>
     <div class="cue">Bench at about 45°, arms hanging straight down and slightly back. Curl without moving the upper arm.</div>
-    <div class="rest">Rest 60–90 sec</div>
+    <div class="rest">Rest 45–90 sec</div>
     <a href="https://www.youtube.com/watch?v=aTYlqC_JacQ">Watch</a>
   </div>
 
-  <div class="ex">
+  <div class="ex end">
     <div class="name">Overhead cable triceps extension <span class="alt">rope</span></div>
     <div class="dose">3 × 10–15</div>
     <div class="cue">Face away from the stack, elbows by the ears, get a deep stretch behind the head each rep.</div>
-    <div class="rest">Rest 60–90 sec</div>
+    <div class="rest">Rest 45–90 sec</div>
     <a href="https://www.youtube.com/watch?v=kqidUIf1eJE">Watch</a>
+  </div>
+
+  <div class="tier last">Last <span>· skip only these if short on time</span></div>
+
+  <div class="ex">
+    <div class="name">Dumbbell lateral raise <span class="alt">or cable lateral raise</span></div>
+    <div class="dose">3 × 12–15</div>
+    <div class="cue">Slight forward lean, lead with the elbows, stop at shoulder height. Light weight, no swinging.</div>
+    <div class="rest">Rest 60 sec</div>
+    <a href="https://www.youtube.com/watch?v=3VcKaXpzqRo">Watch</a>
+  </div>
+
+  <div class="ex end">
+    <div class="name">Hack squat <span class="alt">or leg press</span></div>
+    <div class="dose">3 × 8–12</div>
+    <div class="cue">Feet mid-platform, shoulder width. Go as deep as you can with heels down. Do 1 light ramp set first.</div>
+    <div class="rest">Rest 2 min</div>
+    <a href="https://www.youtube.com/watch?v=rYgNArpwE7E">Watch</a>
   </div>
 </div>
 
 <!-- DAY B -->
 <div class="day">
   <h2>Day B</h2>
-  <p class="focus">Incline press, chest-supported row, shoulders, flyes, arms</p>
+  <p class="focus">Incline press, chest-supported row, shoulder press, arms, flyes, legs</p>
 
-  <div class="ex">
-    <div class="name">Seated leg curl</div>
-    <div class="dose">3 × 8–12</div>
-    <div class="cue">Pad just above the heels. Curl all the way down and control the return.</div>
-    <div class="rest">Rest 2 min</div>
-    <a href="https://www.youtube.com/watch?v=Orxowest56U">Watch</a>
-  </div>
+  <div class="tier first">First <span>· never skip · 2 min rest</span></div>
 
   <div class="ex">
     <div class="name">Incline dumbbell press <span class="alt">30° bench</span></div>
     <div class="dose">3 × 6–10</div>
     <div class="cue">Lower the dumbbells to a deep stretch at upper-chest level, elbows about 45° out. Press up and slightly in.</div>
-    <div class="rest">Rest 2–3 min</div>
+    <div class="rest">Rest 2 min</div>
     <a href="https://www.youtube.com/watch?v=5CECBjd7HLQ">Watch</a>
   </div>
 
@@ -156,7 +162,7 @@
     <a href="https://www.youtube.com/watch?v=0UBRfiO4zDs">Watch</a>
   </div>
 
-  <div class="ex">
+  <div class="ex end">
     <div class="name">Machine shoulder press <span class="alt">or seated dumbbell shoulder press</span></div>
     <div class="dose">3 × 8–12</div>
     <div class="cue">Start with handles at about chin height. Press up without flaring the ribs.</div>
@@ -164,49 +170,55 @@
     <a href="https://www.youtube.com/watch?v=WvLMauqrnK8">Watch</a>
   </div>
 
-  <div class="ex">
-    <div class="name">Pec deck <span class="alt">or cable fly</span></div>
-    <div class="dose">2 × 10–15</div>
-    <div class="cue">Handles at chest height. Open wide to a stretch, then bring the arms together with a slight elbow bend.</div>
-    <div class="rest">Rest 60–90 sec</div>
-    <a href="https://www.youtube.com/watch?v=O-OBCfyh9Fw">Watch</a>
-  </div>
+  <div class="tier mid">Middle <span>· arms · pair these, 45 sec between</span></div>
 
   <div class="ex">
     <div class="name">Preacher curl <span class="alt">machine or EZ bar</span></div>
     <div class="dose">3 × 8–12</div>
     <div class="cue">Armpits on top of the pad. Lower almost to straight arms, then curl. No shoulder movement.</div>
-    <div class="rest">Rest 60–90 sec</div>
+    <div class="rest">Rest 45–90 sec</div>
     <a href="https://www.youtube.com/watch?v=sxA__DoLsgo">Watch</a>
   </div>
 
-  <div class="ex">
+  <div class="ex end">
     <div class="name">Cable triceps pushdown</div>
     <div class="dose">3 × 10–15</div>
     <div class="cue">Elbows pinned to the sides. Push to lockout, let the forearms come up past 90° on the way back.</div>
-    <div class="rest">Rest 60–90 sec</div>
+    <div class="rest">Rest 45–90 sec</div>
     <a href="https://www.youtube.com/watch?v=6Fzep104f0s">Watch</a>
+  </div>
+
+  <div class="tier last">Last <span>· skip only these if short on time</span></div>
+
+  <div class="ex">
+    <div class="name">Pec deck <span class="alt">or cable fly</span></div>
+    <div class="dose">2 × 10–15</div>
+    <div class="cue">Handles at chest height. Open wide to a stretch, then bring the arms together with a slight elbow bend.</div>
+    <div class="rest">Rest 60 sec</div>
+    <a href="https://www.youtube.com/watch?v=O-OBCfyh9Fw">Watch</a>
+  </div>
+
+  <div class="ex end">
+    <div class="name">Seated leg curl</div>
+    <div class="dose">3 × 8–12</div>
+    <div class="cue">Pad just above the heels. Curl all the way down and control the return. Do 1 light ramp set first.</div>
+    <div class="rest">Rest 2 min</div>
+    <a href="https://www.youtube.com/watch?v=Orxowest56U">Watch</a>
   </div>
 </div>
 
 <!-- DAY C -->
 <div class="day">
   <h2>Day C</h2>
-  <p class="focus">Pull-ups, dumbbell row, press, rear delts, arms</p>
+  <p class="focus">Dumbbell press, pull-ups, dumbbell row, arms, rear delts, legs</p>
 
-  <div class="ex">
-    <div class="name">Leg press <span class="alt">or leg extension if you did hack squats on Day A</span></div>
-    <div class="dose">3 × 10–15</div>
-    <div class="cue">Feet shoulder width, lower until the thighs nearly touch the torso, do not let the lower back round off the pad.</div>
-    <div class="rest">Rest 2 min</div>
-    <a href="https://www.youtube.com/watch?v=yZmx_Ac3880">Watch</a>
-  </div>
+  <div class="tier first">First <span>· never skip · 2 min rest</span></div>
 
   <div class="ex">
     <div class="name">Flat dumbbell bench press <span class="alt">or machine press, whichever you skipped on Day A</span></div>
     <div class="dose">3 × 8–12</div>
     <div class="cue">Shoulder blades back and down. Lower to a deep stretch beside the chest, press up and slightly in.</div>
-    <div class="rest">Rest 2–3 min</div>
+    <div class="rest">Rest 2 min</div>
     <a href="https://www.youtube.com/watch?v=YQ2s_Y7g5Qk">Watch</a>
   </div>
 
@@ -214,11 +226,11 @@
     <div class="name">Assisted pull-up <span class="alt">or neutral-grip pulldown</span></div>
     <div class="dose">3 × 6–10</div>
     <div class="cue">Set assistance so you can just hit 6 reps. Full hang at the bottom, chin over the bar at the top.</div>
-    <div class="rest">Rest 2–3 min</div>
+    <div class="rest">Rest 2 min</div>
     <a href="https://www.youtube.com/watch?v=8ygapPMYK1I">Watch</a>
   </div>
 
-  <div class="ex">
+  <div class="ex end">
     <div class="name">One-arm dumbbell row</div>
     <div class="dose">3 × 8–12 each</div>
     <div class="cue">Hand and knee on the bench. Let the dumbbell hang to a stretch, then row to the hip. No twisting.</div>
@@ -226,30 +238,50 @@
     <a href="https://www.youtube.com/watch?v=k2kVniB5eQI">Watch</a>
   </div>
 
-  <div class="ex">
-    <div class="name">Reverse pec deck <span class="alt">or cable face pull</span></div>
-    <div class="dose">3 × 12–15</div>
-    <div class="cue">Chest on the pad, arms slightly bent, sweep the handles back until the arms are in line with the shoulders.</div>
-    <div class="rest">Rest 60–90 sec</div>
-    <a href="https://www.youtube.com/watch?v=5YK4bgzXDp0">Watch</a>
-  </div>
+  <div class="tier mid">Middle <span>· arms · pair these, 45 sec between</span></div>
 
   <div class="ex">
     <div class="name">Cable curl, arm behind the body <span class="alt">"Bayesian" curl, or hammer curl</span></div>
     <div class="dose">3 × 8–12 each</div>
     <div class="cue">Low pulley behind you, step forward so the arm is stretched behind the torso. Curl with the upper arm fixed.</div>
-    <div class="rest">Rest 60–90 sec</div>
+    <div class="rest">Rest 45–90 sec</div>
     <a href="https://www.youtube.com/watch?v=paM4Yo8fo8g">Watch</a>
   </div>
 
-  <div class="ex">
+  <div class="ex end">
     <div class="name">Dumbbell overhead triceps extension <span class="alt">or skull crusher</span></div>
     <div class="dose">3 × 10–15</div>
     <div class="cue">Both hands under one dumbbell, elbows pointing forward, lower behind the head to a deep stretch.</div>
-    <div class="rest">Rest 60–90 sec</div>
+    <div class="rest">Rest 45–90 sec</div>
     <a href="https://www.youtube.com/watch?v=YbX7Wd8jQ-Q">Watch</a>
   </div>
+
+  <div class="tier last">Last <span>· skip only these if short on time</span></div>
+
+  <div class="ex">
+    <div class="name">Reverse pec deck <span class="alt">or cable face pull</span></div>
+    <div class="dose">3 × 12–15</div>
+    <div class="cue">Chest on the pad, arms slightly bent, sweep the handles back until the arms are in line with the shoulders.</div>
+    <div class="rest">Rest 60 sec</div>
+    <a href="https://www.youtube.com/watch?v=5YK4bgzXDp0">Watch</a>
+  </div>
+
+  <div class="ex end">
+    <div class="name">Leg press <span class="alt">or leg extension if you did hack squats on Day A</span></div>
+    <div class="dose">3 × 10–15</div>
+    <div class="cue">Feet shoulder width, lower until the thighs nearly touch the torso. Keep the lower back on the pad. Do 1 light ramp set first.</div>
+    <div class="rest">Rest 2 min</div>
+    <a href="https://www.youtube.com/watch?v=yZmx_Ac3880">Watch</a>
+  </div>
 </div>
+
+<h2>What the groups mean</h2>
+<table>
+  <tr><th>Group</th><th>What is in it</th><th>Rule</th></tr>
+  <tr><td><b style="color:var(--first)">First</b></td><td>Presses, pulldowns, rows, shoulder press</td><td>The chest and back volume. Always done, always fresh. Substitute if a machine is taken, never skip.</td></tr>
+  <tr><td><b style="color:var(--mid)">Middle</b></td><td>One biceps and one triceps exercise</td><td>Direct arm work. Pair them to save time. Substitute rather than skip.</td></tr>
+  <tr><td><b style="color:var(--last)">Last</b></td><td>Side or rear delts, flyes, the leg movement</td><td>Nice to have. If you are out of time or the machine is busy, this is where you cut. Try not to skip legs more than 1 session in 3.</td></tr>
+</table>
 
 <h2>Weekly volume check</h2>
 <table>
@@ -264,7 +296,7 @@
 <p class="small">These sit inside the 10 to 20 weekly sets per muscle that the volume research supports once indirect work is counted, with no session going past the point where extra sets stop paying off. If you ever add a 4th day, make it another upper session.</p>
 
 <h2>Tracking</h2>
-<p class="small">Write down weight × reps for every set. Example: chest press 50 kg, 10 / 9 / 8. Next session, aim to beat at least one of those numbers. When all three sets hit the top of the range, go up in weight.</p>
+<p class="small">Write down weight × reps for every set. Example: chest press 50 kg, 10 / 9 / 8. Next session, aim to beat at least one of those numbers. When all three sets hit the top of the range, go up in weight. A tired day with lower numbers is noise, not a stall. Most lifts flat for two weeks means check food and sleep before changing the training.</p>
 
 </body>
 </html>
