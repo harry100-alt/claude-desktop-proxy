@@ -1,0 +1,92 @@
+/// Upper-Body Hypertrophy, 3 days a week. Arms priority.
+/// Paste this whole file into Liftosaur: Programs -> New program -> switch to text (full) mode.
+/// Starting weights assume ~75-85 kg with no lifting background. Adjust in week 1.
+/// Double progression is automatic: when every set hits the prescribed reps, the app adds
+/// one rep next session, up to the top of the range, then adds weight and drops back to the bottom.
+/// Weeks 1-3: stop 3-4 reps short of failure. From week 4: 1-2 reps short. Last arm set can go to failure.
+
+# Week 1
+
+## Day A
+
+// Handles at mid-chest height. Full stretch at the back, elbows about 45 degrees from the body.
+Chest Press, Leverage Machine / 3x6 35kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2.5kg, 6, 10)
+
+// Slight lean back, pull the bar to the upper chest, drive elbows down. Full stretch at the top.
+Lat Pulldown, Cable / 3x8 40kg 120s / warmup: 1x6 60% / progress: dp(2.5kg, 8, 12)
+
+// Let the shoulder blades reach forward at the start, then pull to the lower ribs.
+Seated Row, Cable / 3x8 40kg 120s / warmup: none / progress: dp(2.5kg, 8, 12)
+
+// Bench at about 45 degrees, arms hanging straight down and slightly back. Curl without moving the upper arm.
+Incline Curl, Dumbbell / 4x8 8kg 45s / warmup: none / superset: A / progress: dp(2kg, 8, 12)
+
+// Overhead, rope. Face away from the stack, elbows by the ears, deep stretch behind the head each rep.
+overhead: Triceps Extension, Cable / 4x10 25kg 45s / warmup: none / superset: A / progress: dp(2.5kg, 10, 15)
+
+// Slight forward lean, lead with the elbows, stop at shoulder height. Light weight, no swinging.
+Lateral Raise, Dumbbell / 3x12 6kg 60s / warmup: none / progress: dp(1kg, 12, 15)
+
+// Heavy dumbbells at the sides. Full stretch at the bottom, shrug straight up, hold 1 second at the top.
+Shrug, Dumbbell / 3x10 22kg 60s / warmup: none / progress: dp(2kg, 10, 15)
+
+// Feet mid-platform, shoulder width. As deep as you can with heels down. Weight is plates only, not the sled.
+Hack Squat, Leverage Machine / 3x8 50kg 120s / warmup: 1x6 50% / progress: dp(10kg, 8, 12)
+
+## Day B
+
+// 30 degree bench. Deep stretch at upper-chest level, elbows about 45 degrees out. Press up and slightly in.
+Incline Bench Press, Dumbbell / 3x6 12kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2kg, 6, 10)
+
+// Chest glued to the pad. Pull elbows back and squeeze the shoulder blades together.
+Chest-Supported Row, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / progress: dp(2.5kg, 8, 12)
+
+// Start with handles at about chin height. Press up without flaring the ribs.
+Shoulder Press, Leverage Machine / 3x8 25kg 120s / warmup: none / progress: dp(2.5kg, 8, 12)
+
+// Armpits on top of the pad. Lower almost to straight arms, then curl. No shoulder movement. Weight includes the bar (about 8 kg).
+Preacher Curl, EZ Bar / 4x8 15kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 8, 12)
+
+// Elbows pinned to the sides. Push to lockout, let the forearms come up past 90 degrees on the way back.
+Triceps Pushdown, Cable / 4x10 25kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 10, 15)
+
+// Handles at chest height. Open wide to a stretch, then bring the arms together with a slight elbow bend.
+Pec Deck, Leverage Machine / 2x10 35kg 60s / warmup: none / progress: dp(2.5kg, 10, 15)
+
+// Pad just above the heels. Curl all the way down and control the return.
+Seated Leg Curl, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / progress: dp(5kg, 8, 12)
+
+## Day C
+
+// Shoulder blades back and down. Deep stretch beside the chest, press up and slightly in.
+Bench Press, Dumbbell / 3x8 14kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2kg, 8, 12)
+
+// Underhand grip, palms facing you, shoulder width. Weight here is the ASSISTANCE. Lower assistance = harder. Full hang, chin over the bar.
+Chin Up, Leverage Machine / 3x6 40kg 120s / warmup: 1x5 55kg / progress: custom() {~
+  if (completedReps >= reps) {
+    if (reps[1] < 10) {
+      reps += 1
+    } else {
+      reps = 6
+      weights -= 2.5kg
+    }
+  }
+~}
+
+// Hand and knee on the bench. Let the dumbbell hang to a stretch, then row to the hip. No twisting.
+Bent Over One Arm Row, Dumbbell / 3x8 16kg 120s / warmup: none / progress: dp(2kg, 8, 12)
+
+// Bayesian curl. Low pulley behind you, step forward so the arm is stretched behind the torso. Curl with the upper arm fixed. One arm at a time.
+Bicep Curl, Cable / 4x8 12.5kg 45s / warmup: none / superset: C / progress: dp(2.5kg, 8, 12)
+
+// Both hands under one dumbbell, elbows pointing forward, lower behind the head to a deep stretch.
+db: Triceps Extension, Dumbbell / 4x10 16kg 45s / warmup: none / superset: C / progress: dp(2kg, 10, 15)
+
+// Chest on the pad, arms slightly bent, sweep the handles back until the arms are in line with the shoulders.
+Reverse Fly, Leverage Machine / 3x12 30kg 60s / warmup: none / progress: dp(2.5kg, 12, 15)
+
+// Full stretch at the bottom, shrug straight up, hold 1 second at the top. No rolling.
+Shrug, Dumbbell / ...Shrug[1]
+
+// Feet shoulder width, lower until the thighs nearly touch the torso. Keep the lower back on the pad. Plates only, not the sled.
+Leg Press, Leverage Machine / 3x10 80kg 120s / warmup: 1x8 50% / progress: dp(10kg, 10, 15)
