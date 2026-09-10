@@ -33,10 +33,12 @@ Liftosaur's exercise picker can add or swap in **program exercises, used or unus
 So the program has:
 
 - The visible days with only the main exercises, 7 or 8 rows each.
-- A hidden block at the end of Day C: every substitute that is not already a main exercise elsewhere, written as a normal exercise line with `/ used: none /`, its own starting weight and `dp` progression, labelled `sub:`. Hidden lines never show in a day.
-- Each visible exercise's note names exactly what to pick in the picker, e.g. "swap to *sub: Skullcrusher, EZ Bar*" or "swap to *main: Bench Press, Dumbbell*" when the substitute is a main exercise on another day.
+- Directly under every visible exercise, its substitute as a hidden line: normal exercise syntax with `/ used: none /`, its own starting weight and `dp` progression, labelled `sub:`. Hidden lines never show in a day. The picker's From Program tab lists program exercises grouped by identity in document order, so each substitute appears immediately below its main exercise there. Two substitutes appear twice with identical lines (skull crusher, barbell shrug) and share one progression; the second copy is grouped at the first copy's position.
+- Every substitute has its own `sub:` identity even when the same movement is a main exercise on another day (dumbbell bench, machine row, cable row, chest press, leg press, dumbbell overhead extension). Tested: a hidden copy that shares label, name and equipment with a visible exercise makes the app mark the visible one `used: none` too, removing it from its day. Never do that.
+- Each visible exercise's note names exactly what to pick, e.g. "swap to *sub: Skullcrusher, EZ Bar*". The hidden line's own note says which main it substitutes for.
+- Recent swaps are remembered per source exercise (`settings.recentExercises[fromKey]`) but the Recent section only appears on the Ad-hoc tab and offers ad-hoc rows, which do not progress. The user must use the From Program tab.
 
-In the workout: tap the exercise, Swap Exercise, pick the named program exercise. Do not pick the ad-hoc version of the same name; the ad-hoc path (`Progress_changeExercise`) only copies weights from history and runs no progression.
+In the workout: tap the exercise, Swap Exercise, From Program tab, pick the `sub:` row under it. Do not pick the same name from the Ad-hoc tab or the Recent section; that path (`Progress_changeExercise`) only copies weights from history and runs no progression. Search in the picker matches exercise name and equipment, not the label.
 
 Simulation result: all 15 hidden substitutes progressed after one completed session, and the three days still show 8, 7 and 8 exercises.
 

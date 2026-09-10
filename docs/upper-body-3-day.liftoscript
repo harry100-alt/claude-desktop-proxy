@@ -9,7 +9,7 @@
 // * Progression is automatic: complete every prescribed rep and the app adds a rep next time, then weight at the top of the range.
 // * Tired day and you lowered the weight? After the last set of that exercise tap **Suppress** next to the progress note, so next session keeps your normal numbers. Otherwise the app builds on the lighter weight.
 // * Ramp-up sets are built in where needed. Nothing else needs a warm-up.
-// * Every exercise note names its substitute and shows a video for both. Machine taken? Tap the exercise, Swap Exercise, pick the named one from the program list. It brings its own weight and progression.
+// * Every exercise has one hidden substitute, marked sub, with its own weight and progression. Machine taken? Tap the exercise, Swap Exercise, From Program tab, and the sub is listed right under it.
 // * Outside the gym: 1.6 to 2.2 g protein per kg, small calorie surplus, 3 to 5 g creatine daily, 7 to 9 hours sleep.
 # Week 1
 
@@ -17,173 +17,180 @@
 // 🟢 **main:** chest press, lat pulldown, cable row.
 // 🟠 **arms:** incline curl + overhead extension, paired.
 // ⚪ **extra:** lateral raise, shrug, hack squat. Cut here if short on time.
-// Machine taken? Tap the exercise, Swap Exercise, and pick the one named in its note from the program list. It brings its own weight and progression.
+// Machine taken? Tap the exercise, Swap Exercise, open the From Program tab. Its substitute is listed right under it, marked sub. It brings its own weight and progression.
 ## Day A
 
-// 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=NwzUje3z0qY) · Sub: swap to *main: Bench Press, Dumbbell* [▶ video](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk)
+// 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=NwzUje3z0qY) · Sub: swap to *sub: Bench Press, Dumbbell* [▶ video](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk)
 // Handles at mid-chest height. Full stretch at the back, elbows about 45° from the body.
 main: Chest Press, Leverage Machine / 3x6 35kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2.5kg, 6, 10)
+
+// ⚪ SUB for Chest Press · [▶ Watch](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk) · Hidden. Pick *sub: Bench Press, Dumbbell* after Swap Exercise.
+sub: Bench Press, Dumbbell / 3x8 14kg 120s / warmup: 1x8 50%, 1x4 75% / used: none / progress: dp(2kg, 8, 12)
 
 // 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=EUIri47Epcg) · Sub: swap to *sub: Pull Up* [▶ video](https://www.youtube.com/watch?v=8ygapPMYK1I)
 // Slight lean back, pull the bar to the upper chest, drive elbows down. Full stretch at the top.
 main: Lat Pulldown, Cable / 3x8 40kg 120s / warmup: 1x6 60% / progress: dp(2.5kg, 8, 12)
 
-// 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=UCXxvVItLoM) · Sub: swap to *main: Chest-Supported Row* [▶ video](https://www.youtube.com/watch?v=0UBRfiO4zDs)
+// ⚪ SUB for Lat Pulldown · [▶ Watch](https://www.youtube.com/watch?v=8ygapPMYK1I) · Hidden. Pick *sub: Pull Up, Leverage Machine* after Swap Exercise. Weight is the ASSISTANCE, lower is harder.
+sub: Pull Up, Leverage Machine / 3x6 40kg 120s / warmup: 1x5 55kg / used: none / progress: dp(-2.5kg, 6, 10)
+
+// 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=UCXxvVItLoM) · Sub: swap to *sub: Chest-Supported Row* [▶ video](https://www.youtube.com/watch?v=0UBRfiO4zDs)
 // Let the shoulder blades reach forward at the start, then pull to the lower ribs.
 main: Seated Row, Cable / 3x8 40kg 120s / warmup: none / progress: dp(2.5kg, 8, 12)
+
+// ⚪ SUB for Seated Row · [▶ Watch](https://www.youtube.com/watch?v=0UBRfiO4zDs) · Hidden. Pick *sub: Chest-Supported Row, Leverage Machine* after Swap Exercise.
+sub: Chest-Supported Row, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / used: none / progress: dp(2.5kg, 8, 12)
 
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=aTYlqC_JacQ) · Sub: swap to *sub: Bicep Curl, Dumbbell* [▶ video](https://www.youtube.com/watch?v=iixND1P2lik)
 // Bench at about 45°, arms hanging straight down and slightly back. Curl without moving the upper arm.
 arms: Incline Curl, Dumbbell / 4x8 8kg 45s / warmup: none / superset: A / progress: dp(2kg, 8, 12)
 
-// 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=kqidUIf1eJE) · Sub: swap to *arms: Triceps Extension, Dumbbell* [▶ video](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q)
+// ⚪ SUB for Incline Curl · [▶ Watch](https://www.youtube.com/watch?v=iixND1P2lik) · Hidden. Pick *sub: Bicep Curl, Dumbbell* after Swap Exercise.
+sub: Bicep Curl, Dumbbell / 4x8 10kg 45s / warmup: none / used: none / progress: dp(2kg, 8, 12)
+
+// 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=kqidUIf1eJE) · Sub: swap to *sub: Triceps Extension, Dumbbell* [▶ video](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q)
 // Overhead, rope. Face away from the stack, elbows by the ears, deep stretch behind the head each rep.
 arms: Triceps Extension, Cable / 4x10 25kg 45s / warmup: none / superset: A / progress: dp(2.5kg, 10, 15)
+
+// ⚪ SUB for Triceps Extension · [▶ Watch](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) · Hidden. Pick *sub: Triceps Extension, Dumbbell* after Swap Exercise.
+sub: Triceps Extension, Dumbbell / 4x10 16kg 45s / warmup: none / used: none / progress: dp(2kg, 10, 15)
 
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=3VcKaXpzqRo) · Sub: swap to *sub: Lateral Raise, Cable* [▶ video](https://www.youtube.com/watch?v=lq7eLC30b9w)
 // Slight forward lean, lead with the elbows, stop at shoulder height. Light weight, no swinging.
 extra: Lateral Raise, Dumbbell / 3x12 6kg 60s / warmup: none / progress: dp(1kg, 12, 15)
 
+// ⚪ SUB for Lateral Raise · [▶ Watch](https://www.youtube.com/watch?v=lq7eLC30b9w) · Hidden. Pick *sub: Lateral Raise, Cable* after Swap Exercise. One arm at a time, lean away from the stack.
+sub: Lateral Raise, Cable / 3x12 7.5kg 60s / warmup: none / used: none / progress: dp(1kg, 12, 15)
+
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=_t3lrPI6Ns4) · Sub: swap to *sub: Shrug, Barbell* [▶ video](https://www.youtube.com/watch?v=M_MjF5Nm_h4)
 // Full stretch at the bottom, shrug straight up, hold 1 second at the top. No rolling.
 extra: Shrug, Dumbbell / 3x10 22kg 60s / warmup: none / progress: dp(2kg, 10, 15)
 
-// ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=rYgNArpwE7E) · Sub: swap to *extra: Leg Press* [▶ video](https://www.youtube.com/watch?v=yZmx_Ac3880)
+// ⚪ SUB for Shrug · [▶ Watch](https://www.youtube.com/watch?v=M_MjF5Nm_h4) · Hidden. Pick *sub: Shrug, Barbell* after Swap Exercise. Total including the bar. Smith machine is fine.
+sub: Shrug, Barbell / 3x10 40kg 60s / warmup: none / used: none / progress: dp(5kg, 10, 15)
+
+// ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=rYgNArpwE7E) · Sub: swap to *sub: Leg Press* [▶ video](https://www.youtube.com/watch?v=yZmx_Ac3880)
 // Feet mid-platform, shoulder width. As deep as you can with heels down. Weight is plates only, not the sled.
 extra: Hack Squat, Leverage Machine / 3x8 50kg 120s / warmup: 1x6 50% / progress: dp(10kg, 8, 12)
+
+// ⚪ SUB for Hack Squat · [▶ Watch](https://www.youtube.com/watch?v=yZmx_Ac3880) · Hidden. Pick *sub: Leg Press, Leverage Machine* after Swap Exercise.
+sub: Leg Press, Leverage Machine / 3x10 80kg 120s / warmup: 1x8 50% / used: none / progress: dp(10kg, 10, 15)
 
 
 // 🟢 **main:** incline press, chest-supported row, shoulder press.
 // 🟠 **arms:** preacher curl + pushdown, paired.
 // ⚪ **extra:** pec deck, leg curl. Cut here if short on time.
-// Machine taken? Tap the exercise, Swap Exercise, and pick the one named in its note from the program list. It brings its own weight and progression.
+// Machine taken? Tap the exercise, Swap Exercise, open the From Program tab. Its substitute is listed right under it, marked sub. It brings its own weight and progression.
 ## Day B
 
 // 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=5CECBjd7HLQ) · Sub: swap to *sub: Incline Bench Press, Smith Machine* [▶ video](https://www.youtube.com/watch?v=8urE8Z8AMQ4)
 // 30° bench. Deep stretch at upper-chest level, elbows about 45° out. Press up and slightly in.
 main: Incline Bench Press, Dumbbell / 3x6 12kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2kg, 6, 10)
 
+// ⚪ SUB for Incline Bench Press · [▶ Watch](https://www.youtube.com/watch?v=8urE8Z8AMQ4) · Hidden. Pick *sub: Incline Bench Press, Smith Machine* after Swap Exercise. Total including the bar.
+sub: Incline Bench Press, Smith Machine / 3x6 30kg 120s / warmup: 1x8 50%, 1x4 75% / used: none / progress: dp(2.5kg, 6, 10)
+
 // 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=0UBRfiO4zDs) · Sub: swap to *sub: Incline Row, Dumbbell* [▶ video](https://www.youtube.com/watch?v=Nx0TzjgsI-0)
 // Chest glued to the pad. Pull elbows back and squeeze the shoulder blades together.
 main: Chest-Supported Row, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / progress: dp(2.5kg, 8, 12)
+
+// ⚪ SUB for Chest-Supported Row · [▶ Watch](https://www.youtube.com/watch?v=Nx0TzjgsI-0) · Hidden. Pick *sub: Incline Row, Dumbbell* after Swap Exercise.
+sub: Incline Row, Dumbbell / 3x8 12kg 120s / warmup: none / used: none / progress: dp(2kg, 8, 12)
 
 // 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=WvLMauqrnK8) · Sub: swap to *sub: Shoulder Press, Dumbbell* [▶ video](https://www.youtube.com/watch?v=HzIiNhHhhtA)
 // Start with handles at about chin height. Press up without flaring the ribs.
 main: Shoulder Press, Leverage Machine / 3x8 25kg 120s / warmup: none / progress: dp(2.5kg, 8, 12)
 
+// ⚪ SUB for Shoulder Press · [▶ Watch](https://www.youtube.com/watch?v=HzIiNhHhhtA) · Hidden. Pick *sub: Shoulder Press, Dumbbell* after Swap Exercise.
+sub: Shoulder Press, Dumbbell / 3x8 10kg 120s / warmup: none / used: none / progress: dp(2kg, 8, 12)
+
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=sxA__DoLsgo) · Sub: swap to *sub: Preacher Curl, Leverage Machine* [▶ video](https://www.youtube.com/watch?v=M_uPvGrMx_o)
 // Armpits on top of the pad. Lower almost to straight arms, then curl. No shoulder movement. Weight includes the bar, about 8 kg.
 arms: Preacher Curl, EZ Bar / 4x8 15kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 8, 12)
+
+// ⚪ SUB for Preacher Curl · [▶ Watch](https://www.youtube.com/watch?v=M_uPvGrMx_o) · Hidden. Pick *sub: Preacher Curl, Leverage Machine* after Swap Exercise.
+sub: Preacher Curl, Leverage Machine / 4x8 25kg 45s / warmup: none / used: none / progress: dp(2.5kg, 8, 12)
 
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=6Fzep104f0s) · Sub: swap to *sub: Skullcrusher, EZ Bar* [▶ video](https://www.youtube.com/watch?v=OQ4TWXkZjTc)
 // Elbows pinned to the sides. Push to lockout, let the forearms come up past 90° on the way back.
 arms: Triceps Pushdown, Cable / 4x10 25kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 10, 15)
 
+// ⚪ SUB for Triceps Pushdown · [▶ Watch](https://www.youtube.com/watch?v=OQ4TWXkZjTc) · Hidden. Pick *sub: Skullcrusher, EZ Bar* after Swap Exercise. Weight includes the bar, about 8 kg.
+sub: Skullcrusher, EZ Bar / 4x10 15kg 45s / warmup: none / used: none / progress: dp(2.5kg, 10, 15)
+
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=O-OBCfyh9Fw) · Sub: swap to *sub: Chest Fly, Cable* [▶ video](https://www.youtube.com/watch?v=4mfLHnFL0Uw)
 // Handles at chest height. Open wide to a stretch, then bring the arms together with a slight elbow bend.
 extra: Pec Deck, Leverage Machine / 2x10 35kg 60s / warmup: none / progress: dp(2.5kg, 10, 15)
+
+// ⚪ SUB for Pec Deck · [▶ Watch](https://www.youtube.com/watch?v=4mfLHnFL0Uw) · Hidden. Pick *sub: Chest Fly, Cable* after Swap Exercise. Weight per side.
+sub: Chest Fly, Cable / 2x10 12.5kg 60s / warmup: none / used: none / progress: dp(2.5kg, 10, 15)
 
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=Orxowest56U) · Sub: swap to *sub: Lying Leg Curl* [▶ video](https://www.youtube.com/watch?v=n5WDXD_mpVY)
 // Pad just above the heels. Curl all the way down and control the return.
 extra: Seated Leg Curl, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / progress: dp(5kg, 8, 12)
 
+// ⚪ SUB for Seated Leg Curl · [▶ Watch](https://www.youtube.com/watch?v=n5WDXD_mpVY) · Hidden. Pick *sub: Lying Leg Curl, Leverage Machine* after Swap Exercise.
+sub: Lying Leg Curl, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / used: none / progress: dp(5kg, 8, 12)
+
 
 // 🟢 **main:** dumbbell bench, chin-up, one-arm row.
 // 🟠 **arms:** Bayesian curl + dumbbell overhead extension, paired.
 // ⚪ **extra:** reverse pec deck, shrug, leg press. Cut here if short on time.
-// Machine taken? Tap the exercise, Swap Exercise, and pick the one named in its note from the program list. It brings its own weight and progression.
+// Machine taken? Tap the exercise, Swap Exercise, open the From Program tab. Its substitute is listed right under it, marked sub. It brings its own weight and progression.
 ## Day C
 
-// 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk) · Sub: swap to *main: Chest Press, Leverage Machine* [▶ video](https://www.youtube.com/watch?v=NwzUje3z0qY)
+// 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk) · Sub: swap to *sub: Chest Press, Leverage Machine* [▶ video](https://www.youtube.com/watch?v=NwzUje3z0qY)
 // Shoulder blades back and down. Deep stretch beside the chest, press up and slightly in.
 main: Bench Press, Dumbbell / 3x8 14kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2kg, 8, 12)
+
+// ⚪ SUB for Bench Press · [▶ Watch](https://www.youtube.com/watch?v=NwzUje3z0qY) · Hidden. Pick *sub: Chest Press, Leverage Machine* after Swap Exercise.
+sub: Chest Press, Leverage Machine / 3x6 35kg 120s / warmup: 1x8 50%, 1x4 75% / used: none / progress: dp(2.5kg, 6, 10)
 
 // 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=9JC1EwqezGY) · Sub: swap to *sub: Lat Pulldown, Cable* [▶ video](https://www.youtube.com/watch?v=GRHLNfmr_oI)
 // Underhand grip, palms facing you, shoulder width. Weight here is the ASSISTANCE, lower is harder. Full hang, chin over the bar.
 main: Chin Up, Leverage Machine / 3x6 40kg 120s / warmup: 1x5 55kg / progress: dp(-2.5kg, 6, 10)
 
-// 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=k2kVniB5eQI) · Sub: swap to *main: Seated Row, Cable* [▶ video](https://www.youtube.com/watch?v=UCXxvVItLoM)
+// ⚪ SUB for Chin Up · [▶ Watch](https://www.youtube.com/watch?v=GRHLNfmr_oI) · Hidden. Pick *sub: Lat Pulldown, Cable* after Swap Exercise. Neutral grip, V-handle.
+sub: Lat Pulldown, Cable / 3x8 40kg 120s / warmup: 1x6 60% / used: none / progress: dp(2.5kg, 8, 12)
+
+// 🟢 MAIN · [▶ Watch](https://www.youtube.com/watch?v=k2kVniB5eQI) · Sub: swap to *sub: Seated Row, Cable* [▶ video](https://www.youtube.com/watch?v=UCXxvVItLoM)
 // Hand and knee on the bench. Let the dumbbell hang to a stretch, then row to the hip. No twisting.
 main: Bent Over One Arm Row, Dumbbell / 3x8 16kg 120s / warmup: none / progress: dp(2kg, 8, 12)
+
+// ⚪ SUB for Bent Over One Arm Row · [▶ Watch](https://www.youtube.com/watch?v=UCXxvVItLoM) · Hidden. Pick *sub: Seated Row, Cable* after Swap Exercise.
+sub: Seated Row, Cable / 3x8 40kg 120s / warmup: none / used: none / progress: dp(2.5kg, 8, 12)
 
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=paM4Yo8fo8g) · Sub: swap to *sub: Hammer Curl* [▶ video](https://www.youtube.com/watch?v=XOEL4MgekYE)
 // Bayesian curl, one arm at a time. Low pulley behind you, step forward so the arm is stretched behind the torso. Upper arm fixed.
 arms: Bicep Curl, Cable / 4x8 12.5kg 45s / warmup: none / superset: C / progress: dp(2.5kg, 8, 12)
 
+// ⚪ SUB for Bicep Curl · [▶ Watch](https://www.youtube.com/watch?v=XOEL4MgekYE) · Hidden. Pick *sub: Hammer Curl, Dumbbell* after Swap Exercise.
+sub: Hammer Curl, Dumbbell / 4x8 10kg 45s / warmup: none / used: none / progress: dp(2kg, 8, 12)
+
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) · Sub: swap to *sub: Skullcrusher, EZ Bar* [▶ video](https://www.youtube.com/watch?v=OQ4TWXkZjTc)
 // Both hands under one dumbbell, elbows pointing forward, lower behind the head to a deep stretch.
 arms: Triceps Extension, Dumbbell / 4x10 16kg 45s / warmup: none / superset: C / progress: dp(2kg, 10, 15)
+
+// ⚪ SUB for Triceps Extension · [▶ Watch](https://www.youtube.com/watch?v=OQ4TWXkZjTc) · Hidden. Pick *sub: Skullcrusher, EZ Bar* after Swap Exercise. Weight includes the bar, about 8 kg.
+sub: Skullcrusher, EZ Bar / 4x10 15kg 45s / warmup: none / used: none / progress: dp(2.5kg, 10, 15)
 
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=5YK4bgzXDp0) · Sub: swap to *sub: Face Pull* [▶ video](https://www.youtube.com/watch?v=-MODnZdnmAQ)
 // Chest on the pad, arms slightly bent, sweep the handles back until the arms are in line with the shoulders.
 extra: Reverse Fly, Leverage Machine / 3x12 30kg 60s / warmup: none / progress: dp(2.5kg, 12, 15)
 
+// ⚪ SUB for Reverse Fly · [▶ Watch](https://www.youtube.com/watch?v=-MODnZdnmAQ) · Hidden. Pick *sub: Face Pull, Cable* after Swap Exercise.
+sub: Face Pull, Cable / 3x12 20kg 60s / warmup: none / used: none / progress: dp(2.5kg, 12, 15)
+
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=_t3lrPI6Ns4) · Sub: swap to *sub: Shrug, Barbell* [▶ video](https://www.youtube.com/watch?v=M_MjF5Nm_h4)
 // Full stretch at the bottom, shrug straight up, hold 1 second at the top. No rolling.
 extra: Shrug, Dumbbell / 3x10 22kg 60s / warmup: none / progress: dp(2kg, 10, 15)
+
+// ⚪ SUB for Shrug · [▶ Watch](https://www.youtube.com/watch?v=M_MjF5Nm_h4) · Hidden. Pick *sub: Shrug, Barbell* after Swap Exercise. Total including the bar. Smith machine is fine.
+sub: Shrug, Barbell / 3x10 40kg 60s / warmup: none / used: none / progress: dp(5kg, 10, 15)
 
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=yZmx_Ac3880) · Sub: swap to *sub: Leg Extension* [▶ video](https://www.youtube.com/watch?v=m0FOpMEgero)
 // Feet shoulder width, lower until the thighs nearly touch the torso. Keep the lower back on the pad. Plates only, not the sled.
 extra: Leg Press, Leverage Machine / 3x10 80kg 120s / warmup: 1x8 50% / progress: dp(10kg, 10, 15)
 
-/// Hidden substitutes. They do not appear in any day. In a workout, tap Swap Exercise and pick one
-/// from the program exercises list: it comes with its own weight, sets, timer and progression.
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=8ygapPMYK1I)
-// Assisted pull-up, overhand. Weight is the ASSISTANCE, lower is harder. Substitute for the lat pulldown.
-sub: Pull Up, Leverage Machine / 3x6 40kg 120s / warmup: 1x5 55kg / used: none / progress: dp(-2.5kg, 6, 10)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=GRHLNfmr_oI)
-// Neutral-grip pulldown, V-handle. Substitute for the chin-up.
-sub: Lat Pulldown, Cable / 3x8 40kg 120s / warmup: 1x6 60% / used: none / progress: dp(2.5kg, 8, 12)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=iixND1P2lik)
-// Standing dumbbell curl. Substitute for the incline curl.
-sub: Bicep Curl, Dumbbell / 4x8 10kg 45s / warmup: none / used: none / progress: dp(2kg, 8, 12)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=XOEL4MgekYE)
-// Substitute for the Bayesian cable curl.
-sub: Hammer Curl, Dumbbell / 4x8 10kg 45s / warmup: none / used: none / progress: dp(2kg, 8, 12)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=M_uPvGrMx_o)
-// Preacher curl machine. Substitute for the EZ bar preacher curl.
-sub: Preacher Curl, Leverage Machine / 4x8 25kg 45s / warmup: none / used: none / progress: dp(2.5kg, 8, 12)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=OQ4TWXkZjTc)
-// Weight includes the bar, about 8 kg. Substitute for the pushdown or the dumbbell overhead extension.
-sub: Skullcrusher, EZ Bar / 4x10 15kg 45s / warmup: none / used: none / progress: dp(2.5kg, 10, 15)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=lq7eLC30b9w)
-// Leaning cable lateral raise, one arm at a time. Substitute for the dumbbell lateral raise.
-sub: Lateral Raise, Cable / 3x12 7.5kg 60s / warmup: none / used: none / progress: dp(1kg, 12, 15)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=M_MjF5Nm_h4)
-// Barbell or Smith machine shrug, total including the bar. Substitute for the dumbbell shrug.
-sub: Shrug, Barbell / 3x10 40kg 60s / warmup: none / used: none / progress: dp(5kg, 10, 15)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=8urE8Z8AMQ4)
-// Total including the bar. Substitute for the incline dumbbell press.
-sub: Incline Bench Press, Smith Machine / 3x6 30kg 120s / warmup: 1x8 50%, 1x4 75% / used: none / progress: dp(2.5kg, 6, 10)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=Nx0TzjgsI-0)
-// Chest on an incline bench, dumbbells. Substitute for the chest-supported row machine.
-sub: Incline Row, Dumbbell / 3x8 12kg 120s / warmup: none / used: none / progress: dp(2kg, 8, 12)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=HzIiNhHhhtA)
-// Seated dumbbell shoulder press. Substitute for the machine shoulder press.
-sub: Shoulder Press, Dumbbell / 3x8 10kg 120s / warmup: none / used: none / progress: dp(2kg, 8, 12)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=4mfLHnFL0Uw)
-// Weight per side. Substitute for the pec deck.
-sub: Chest Fly, Cable / 2x10 12.5kg 60s / warmup: none / used: none / progress: dp(2.5kg, 10, 15)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=n5WDXD_mpVY)
-// Substitute for the seated leg curl.
-sub: Lying Leg Curl, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / used: none / progress: dp(5kg, 8, 12)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=-MODnZdnmAQ)
-// Rope, pull to the face with elbows high. Substitute for the reverse pec deck.
-sub: Face Pull, Cable / 3x12 20kg 60s / warmup: none / used: none / progress: dp(2.5kg, 12, 15)
-
-// ⚪ SUB · [▶ Watch](https://www.youtube.com/watch?v=m0FOpMEgero)
-// Substitute for the leg press.
+// ⚪ SUB for Leg Press · [▶ Watch](https://www.youtube.com/watch?v=m0FOpMEgero) · Hidden. Pick *sub: Leg Extension, Leverage Machine* after Swap Exercise.
 sub: Leg Extension, Leverage Machine / 3x10 35kg 120s / warmup: 1x8 50% / used: none / progress: dp(2.5kg, 10, 15)

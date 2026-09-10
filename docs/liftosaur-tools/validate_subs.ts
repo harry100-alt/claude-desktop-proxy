@@ -28,6 +28,16 @@ for (let d = 1; d <= 3; d++) {
   const vis = Program_getDayExercisesInOrder(evaluated, d);
   console.log(`Day ${d} visible in workout: ${vis.length} -> ${vis.map((e) => e.fullName.split(":")[0] + ":" + e.fullName.split(":")[1].split(",")[0]).join(" | ")}`);
 }
+
+// Replicate the picker's "From Program" tab: group by exercise key in document order (first occurrence wins).
+{
+  const week = evaluated.weeks[0];
+  const seen = new Set<string>(); const order: string[] = [];
+  for (const day of week.days) for (const ex of day.exercises) { if (!seen.has(ex.key)) { seen.add(ex.key); order.push(ex.fullName); } }
+  console.log(`Picker From Program order (${order.length} rows):`);
+  order.forEach((n, i) => console.log(`  ${String(i + 1).padStart(2)}. ${n}`));
+}
+
 const visibleDay1 = Program_getDayData(evaluated, 1);
 let ok = 0;
 for (const h of hidden) {
