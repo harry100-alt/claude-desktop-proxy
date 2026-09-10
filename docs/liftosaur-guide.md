@@ -11,6 +11,7 @@ For everything the app can do in general (features, full Liftoscript syntax, scr
 | `docs/upper-body-3-day.liftoscript` | The current program text. Source of truth for the app. |
 | `docs/liftosaur-tools/gen_program.py` | Generates the program text from a data table. Edit the table, not the text. `python3 gen_program.py out.txt` |
 | `docs/liftosaur-tools/validate_plan.ts` | Runs a program through Liftosaur's real parser and simulates N completed rounds. See "Validating" below. |
+| `docs/liftosaur-tools/validate_subs.ts` | Swaps each hidden `used: none` substitute into a workout, completes it, and checks its progression fired. Also prints visible exercise counts per day. |
 | `docs/upper-body-3-day-plan.md` / `.html` | The human-readable plan. Keep exercises, sets, and links in sync with the program. |
 | `docs/liftosaur-reference.md` | General reference for the app and Liftoscript. Built from the official docs and changelog. |
 
@@ -20,27 +21,31 @@ For everything the app can do in general (features, full Liftoscript syntax, scr
 - Public share links look like `liftosaur.com/p/<id>` and can be fetched without login.
 - REST API and MCP server both require Premium and an API key starting `lftsk_`. Do not ask the user to paste a key into chat.
 - Chin-up weight is the machine assistance, so the program decrements it. Do not enable "Is assisting" or "Bodyweight for bar" in equipment settings, those apply to every Leverage Machine exercise.
-- Substitutes are listed in descriptions with links. There is no per-slot toggle. The user taps the exercise and uses Swap in the workout.
+- Substitutes are hidden `used: none` program exercises with their own weight and progression; each visible exercise's note names which one to pick after Swap Exercise. See the substitutes section.
 - Group system: every exercise note starts with 🟢 MAIN (press and pulls, never skip), 🟠 ARMS (the pair), or ⚪ EXTRA (skippable). Exercises also carry `main:` / `arms:` / `extra:` labels. The user wants it obvious at a glance; do not add more tiers or rename them without asking.
 - The app has no colour system for exercises. Red underlines in the editor are parse errors and the program will not save while they exist. Emoji in descriptions are the only visual tag that renders in the workout.
 - The user's installed app may be older than the GitHub source used for validation. Prefer plain syntax: built-in `dp` over `custom()` scripts, full repeated lines over labelled `...reuse`. If the user reports red underlines, ask for the tap-to-see message and the exercise.
 
-## How substitutes work (decided, do not revisit without new information)
+## How substitutes work (decided 2026-09-10, supersedes earlier approach)
 
-The program lists only the main exercises. Substitutes live in each exercise's description with a video link. In the workout the user taps the exercise's menu, chooses Swap Exercise, and picks the substitute. Verified in source (`src/models/progress.ts`, `Progress_changeExercise` and `swapDerivedWeight`):
+Liftosaur's exercise picker can add or swap in **program exercises, used or unused**, and they arrive with their own sets, weights, timer, warm-ups and progression, which runs on completion (changelog 2025-07-19, "Redesign of the exercise picker"; verified in `NavModalExercisePicker.tsx` and by simulation in `docs/liftosaur-tools/validate_subs.ts`).
 
-- The swapped exercise's set weights are filled from the user's own last logged session of that exercise, scaled to today's rep target. With no history it falls back to the exercise's starting weight.
-- By default the swapped entry is detached from the program exercise (`shouldKeepProgramExerciseId` is off), so doing the substitute does not advance the main exercise's progression.
-- Recent swaps are remembered (`Settings_addRecentSwap`) and surface in the picker, so after the first time it is a two-tap operation.
-- The picker has a Substitute tab that suggests exercises by matching muscles.
+So the program has:
 
-What this does not do: prescribe a rep target for the substitute. The user applies the double-progression rule by hand for that one exercise on that one day.
+- The visible days with only the main exercises, 7 or 8 rows each.
+- A hidden block at the end of Day C: every substitute that is not already a main exercise elsewhere, written as a normal exercise line with `/ used: none /`, its own starting weight and `dp` progression, labelled `sub:`. Hidden lines never show in a day.
+- Each visible exercise's note names exactly what to pick in the picker, e.g. "swap to *sub: Skullcrusher, EZ Bar*" or "swap to *main: Bench Press, Dumbbell*" when the substitute is a main exercise on another day.
+
+In the workout: tap the exercise, Swap Exercise, pick the named program exercise. Do not pick the ad-hoc version of the same name; the ad-hoc path (`Progress_changeExercise`) only copies weights from history and runs no progression.
+
+Simulation result: all 15 hidden substitutes progressed after one completed session, and the three days still show 8, 7 and 8 exercises.
 
 Rejected approaches, and why:
 
-- Listing every substitute as its own exercise line under the main one. Works mechanically (an unlogged exercise neither progresses nor regresses) but doubles every day's list. The user rejected it as too cluttered.
-- Exercise variations with `|`. All variations share one weight and one progression, so they cannot hold a lighter substitute. No workout-screen control switches them; only scripts can.
-- Switching apps. No free app has programmed substitutes with their own progression. Hevy and Strong swap as easily but have no automatic progression at all.
+- Substitutes as visible lines under each main exercise. Works but doubles every day's list; the user rejected it as too cluttered.
+- Exercise variations with `|`. All variations share one weight and one progression. No workout-screen control switches them.
+- Ad-hoc swap only. Weights come from history but the substitute never progresses. This was the fallback before the picker feature was found.
+- Switching apps. No free app has programmed substitutes with their own progression.
 
 ## Liftoscript essentials
 
