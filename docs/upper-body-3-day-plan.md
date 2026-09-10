@@ -1,6 +1,6 @@
 # Upper-Body Hypertrophy, 3 Days a Week
 
-Full-body layout with an upper-body bias. Chest, back, and arms are trained every session. One leg movement per day. No squat rack needed. About 50 to 60 minutes per session.
+Full-body layout with an upper-body bias. Chest, back, and arms are trained every session. One leg movement per day. No squat rack needed. About 55 to 65 minutes per session.
 
 ## Read this first
 
@@ -41,8 +41,8 @@ Chest press, vertical and horizontal pull, arms, side delts, legs
 
 | Exercise | Sets × Reps | Video |
 |---|---|---|
-| **Incline dumbbell curl** (or standing dumbbell curl) <br><sub>Bench at about 45°, arms hanging straight down and slightly back. Curl without moving the upper arm.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=aTYlqC_JacQ) · [▶ Alt: Standing curl](https://www.youtube.com/watch?v=iixND1P2lik) |
-| **Overhead cable triceps extension**, rope (or dumbbell overhead extension) <br><sub>Face away from the stack, elbows by the ears, deep stretch behind the head each rep.</sub> | 3 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=kqidUIf1eJE) · [▶ Alt: DB overhead](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) |
+| **Incline dumbbell curl** (or standing dumbbell curl) <br><sub>Bench at about 45°, arms hanging straight down and slightly back. Curl without moving the upper arm.</sub> | 4 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=aTYlqC_JacQ) · [▶ Alt: Standing curl](https://www.youtube.com/watch?v=iixND1P2lik) |
+| **Overhead cable triceps extension**, rope (or dumbbell overhead extension) <br><sub>Face away from the stack, elbows by the ears, deep stretch behind the head each rep.</sub> | 4 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=kqidUIf1eJE) · [▶ Alt: DB overhead](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) |
 
 ### ⚪ Last · skip only these if short on time
 
@@ -67,8 +67,8 @@ Incline press, chest-supported row, shoulder press, arms, flyes, legs
 
 | Exercise | Sets × Reps | Video |
 |---|---|---|
-| **Preacher curl**, machine or EZ bar <br><sub>Armpits on top of the pad. Lower almost to straight arms, then curl. No shoulder movement.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=sxA__DoLsgo) · [▶ Alt: Machine](https://www.youtube.com/watch?v=M_uPvGrMx_o) |
-| **Cable triceps pushdown** (or skull crusher) <br><sub>Elbows pinned to the sides. Push to lockout, let the forearms come up past 90° on the way back.</sub> | 3 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=6Fzep104f0s) · [▶ Alt: Skull crusher](https://www.youtube.com/watch?v=OQ4TWXkZjTc) |
+| **Preacher curl**, machine or EZ bar <br><sub>Armpits on top of the pad. Lower almost to straight arms, then curl. No shoulder movement.</sub> | 4 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=sxA__DoLsgo) · [▶ Alt: Machine](https://www.youtube.com/watch?v=M_uPvGrMx_o) |
+| **Cable triceps pushdown** (or skull crusher) <br><sub>Elbows pinned to the sides. Push to lockout, let the forearms come up past 90° on the way back.</sub> | 4 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=6Fzep104f0s) · [▶ Alt: Skull crusher](https://www.youtube.com/watch?v=OQ4TWXkZjTc) |
 
 ### ⚪ Last · skip only these if short on time
 
@@ -79,22 +79,22 @@ Incline press, chest-supported row, shoulder press, arms, flyes, legs
 
 ## Day C
 
-Dumbbell press, pull-ups, dumbbell row, arms, rear delts, legs
+Dumbbell press, chin-ups, dumbbell row, arms, rear delts, legs
 
 ### 🟢 First · never skip · 2 min rest
 
 | Exercise | Sets × Reps | Video |
 |---|---|---|
 | **Flat dumbbell bench press** (or machine press, whichever you skipped on Day A) <br><sub>Shoulder blades back and down. Deep stretch beside the chest, press up and slightly in.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk) · [▶ Alt: Machine press](https://www.youtube.com/watch?v=NwzUje3z0qY) |
-| **Assisted pull-up** (or neutral-grip pulldown) <br><sub>Set assistance so you can just hit 6 reps. Full hang at the bottom, chin over the bar at the top.</sub> | 3 × 6–10 | [▶ Watch](https://www.youtube.com/watch?v=8ygapPMYK1I) · [▶ Alt: Neutral pulldown](https://www.youtube.com/watch?v=GRHLNfmr_oI) |
+| **Assisted chin-up**, underhand grip (or neutral-grip pulldown) <br><sub>Palms facing you, shoulder width. Set assistance so you can just hit 6 reps. Full hang at the bottom, chin over the bar at the top.</sub> | 3 × 6–10 | [▶ Watch](https://www.youtube.com/watch?v=9JC1EwqezGY) · [▶ Alt: Neutral pulldown](https://www.youtube.com/watch?v=GRHLNfmr_oI) |
 | **One-arm dumbbell row** (or seated cable row) <br><sub>Hand and knee on the bench. Let the dumbbell hang to a stretch, then row to the hip. No twisting.</sub> | 3 × 8–12 each | [▶ Watch](https://www.youtube.com/watch?v=k2kVniB5eQI) · [▶ Alt: Cable row](https://www.youtube.com/watch?v=UCXxvVItLoM) |
 
 ### 🟠 Middle · arms · pair these, 45 sec between
 
 | Exercise | Sets × Reps | Video |
 |---|---|---|
-| **Cable curl, arm behind the body** ("Bayesian" curl, or hammer curl) <br><sub>Low pulley behind you, step forward so the arm is stretched behind the torso. Curl with the upper arm fixed.</sub> | 3 × 8–12 each | [▶ Watch](https://www.youtube.com/watch?v=paM4Yo8fo8g) · [▶ Alt: Hammer curl](https://www.youtube.com/watch?v=XOEL4MgekYE) |
-| **Dumbbell overhead triceps extension** (or skull crusher) <br><sub>Both hands under one dumbbell, elbows pointing forward, lower behind the head to a deep stretch.</sub> | 3 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) · [▶ Alt: Skull crusher](https://www.youtube.com/watch?v=OQ4TWXkZjTc) |
+| **Cable curl, arm behind the body** ("Bayesian" curl, or hammer curl) <br><sub>Low pulley behind you, step forward so the arm is stretched behind the torso. Curl with the upper arm fixed.</sub> | 4 × 8–12 each | [▶ Watch](https://www.youtube.com/watch?v=paM4Yo8fo8g) · [▶ Alt: Hammer curl](https://www.youtube.com/watch?v=XOEL4MgekYE) |
+| **Dumbbell overhead triceps extension** (or skull crusher) <br><sub>Both hands under one dumbbell, elbows pointing forward, lower behind the head to a deep stretch.</sub> | 4 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) · [▶ Alt: Skull crusher](https://www.youtube.com/watch?v=OQ4TWXkZjTc) |
 
 ### ⚪ Last · skip only these if short on time
 
@@ -119,8 +119,8 @@ Dumbbell press, pull-ups, dumbbell row, arms, rear delts, legs
 |---|---|---|
 | Chest | 11 | 3 |
 | Back (lats and upper back) | 15 | 3 |
-| Biceps (plus indirect from 5 pulling exercises) | 9 | 3 |
-| Triceps (plus indirect from 4 pressing exercises) | 9 | 3 |
+| Biceps (plus indirect from 5 pulling exercises, chin-ups especially) | 12 | 3 |
+| Triceps (plus indirect from 4 pressing exercises) | 12 | 3 |
 | Side and rear delts | 6 | 2 |
 | Legs | 9 | 3 |
 
