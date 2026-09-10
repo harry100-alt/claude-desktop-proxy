@@ -27,7 +27,7 @@ Full-body layout with an upper-body bias. Chest, back, and arms are trained ever
 
 ## Day A
 
-Chest press, vertical and horizontal pull, arms, side delts, legs
+Chest press, vertical and horizontal pull, arms, side delts, traps, legs
 
 ### 🟢 First · never skip · 2 min rest
 
@@ -49,6 +49,7 @@ Chest press, vertical and horizontal pull, arms, side delts, legs
 | Exercise | Sets × Reps | Rest | Video |
 |---|---|---|---|
 | **Dumbbell lateral raise** (or cable) <br><sub>Slight forward lean, lead with the elbows, stop at shoulder height. Light weight, no swinging.</sub> | 3 × 12–15 | 60 sec | [▶ Watch](https://www.youtube.com/watch?v=3VcKaXpzqRo) · [▶ Alt: Cable raise](https://www.youtube.com/watch?v=lq7eLC30b9w) |
+| **Dumbbell shrug** (or barbell / Smith machine shrug) <br><sub>Heavy dumbbells at the sides. Let the shoulders drop to a full stretch, shrug straight up toward the ears, hold 1 second at the top. No rolling.</sub> | 3 × 10–15 | 60 sec | [▶ Watch](https://www.youtube.com/watch?v=_t3lrPI6Ns4) · [▶ Alt: Barbell shrug](https://www.youtube.com/watch?v=M_MjF5Nm_h4) |
 | **Hack squat** (or leg press) <br><sub>Feet mid-platform, shoulder width. Go as deep as you can with heels down. Do 1 light ramp set first.</sub> | 3 × 8–12 | 2 min | [▶ Watch](https://www.youtube.com/watch?v=rYgNArpwE7E) · [▶ Alt: Leg press](https://www.youtube.com/watch?v=yZmx_Ac3880) |
 
 ## Day B
@@ -79,7 +80,7 @@ Incline press, chest-supported row, shoulder press, arms, flyes, legs
 
 ## Day C
 
-Dumbbell press, chin-ups, dumbbell row, arms, rear delts, legs
+Dumbbell press, chin-ups, dumbbell row, arms, rear delts, traps, legs
 
 ### 🟢 First · never skip · 2 min rest
 
@@ -101,6 +102,7 @@ Dumbbell press, chin-ups, dumbbell row, arms, rear delts, legs
 | Exercise | Sets × Reps | Rest | Video |
 |---|---|---|---|
 | **Reverse pec deck** (or cable face pull) <br><sub>Chest on the pad, arms slightly bent, sweep the handles back until the arms are in line with the shoulders.</sub> | 3 × 12–15 | 60 sec | [▶ Watch](https://www.youtube.com/watch?v=5YK4bgzXDp0) · [▶ Alt: Face pull](https://www.youtube.com/watch?v=-MODnZdnmAQ) |
+| **Dumbbell shrug** (or barbell / Smith machine shrug) <br><sub>Heavy dumbbells at the sides. Let the shoulders drop to a full stretch, shrug straight up toward the ears, hold 1 second at the top. No rolling.</sub> | 3 × 10–15 | 60 sec | [▶ Watch](https://www.youtube.com/watch?v=_t3lrPI6Ns4) · [▶ Alt: Barbell shrug](https://www.youtube.com/watch?v=M_MjF5Nm_h4) |
 | **Leg press** (or leg extension if you did hack squats on Day A) <br><sub>Feet shoulder width, lower until the thighs nearly touch the torso. Keep the lower back on the pad. Do 1 light ramp set first.</sub> | 3 × 10–15 | 2 min | [▶ Watch](https://www.youtube.com/watch?v=yZmx_Ac3880) · [▶ Alt: Leg extension](https://www.youtube.com/watch?v=m0FOpMEgero) |
 
 ---
@@ -111,7 +113,7 @@ Dumbbell press, chin-ups, dumbbell row, arms, rear delts, legs
 |---|---|---|
 | 🟢 **First** | Presses, pulldowns, rows, shoulder press | The chest and back volume. Always done, always fresh. Substitute if a machine is taken, never skip. |
 | 🟠 **Middle** | One biceps and one triceps exercise | Direct arm work. Pair them to save time. Substitute rather than skip. |
-| ⚪ **Last** | Side or rear delts, flyes, the leg movement | Nice to have. If you are out of time or the machine is busy, this is where you cut. Try not to skip legs more than 1 session in 3. |
+| ⚪ **Last** | Side or rear delts, flyes, shrugs, the leg movement | Nice to have. If you are out of time or the machine is busy, this is where you cut. Try not to skip legs more than 1 session in 3. |
 
 ## Weekly volume check
 
@@ -122,6 +124,7 @@ Dumbbell press, chin-ups, dumbbell row, arms, rear delts, legs
 | Biceps (plus indirect from 5 pulling exercises, chin-ups especially) | 12 | 3 |
 | Triceps (plus indirect from 4 pressing exercises) | 12 | 3 |
 | Side and rear delts | 6 | 2 |
+| Upper traps | 6 | 2 |
 | Legs | 9 | 3 |
 
 These sit inside the 10 to 20 weekly sets per muscle that the volume research supports once indirect work is counted, with no session going past the point where extra sets stop paying off. If you ever add a 4th day, make it another upper session.
