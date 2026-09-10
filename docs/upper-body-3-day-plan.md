@@ -6,7 +6,7 @@ Full-body layout with an upper-body bias. Chest, back, and arms are trained ever
 
 - **Schedule:** Mon / Wed / Fri or any three non-consecutive days. Do A, B, C in order.
 - **Order:** each day is split into **First**, **Middle**, and **Last**. Do all of First before Middle, and Middle before Last. Within a group, any order is fine. Keep each exercise in the same part of the session week to week so your log stays comparable.
-- **If a machine is taken:** do another exercise from the same group and come back, or swap in the listed alternative. Each exercise has two video links: the main exercise and its substitute. Same movement pattern and rep range is what counts, not the machine. Only ever skip from the Last group, and never skip a press or a pull.
+- **If a machine is taken:** do another exercise from the same group and come back, or swap in the listed alternative. Every exercise has two video links: the main exercise and its substitute. Same movement pattern and rep range is what counts, not the machine. Only ever skip from the Last group, and never skip a press or a pull.
 - **Effort:** weeks 1 to 3 stop 3 to 4 reps short of failure while you learn form. From week 4, end every set 1 to 2 reps short of failure. The last set of any machine or isolation exercise can go to failure.
 - **Progression:** when you hit the top of the rep range on **every** set, add the smallest weight increment next session and build back up. Until then, beat last time on at least one set. Log every set.
 - **Rest:** 2 min on presses, rows, pulldowns, and leg movements. 60 to 90 sec on isolation work. Use a timer.
@@ -34,15 +34,15 @@ Chest press, vertical and horizontal pull, arms, side delts, legs
 | Exercise | Sets × Reps | Video |
 |---|---|---|
 | **Machine chest press** (or flat dumbbell bench) <br><sub>Handles at mid-chest height. Full stretch at the back, elbows about 45° from the body.</sub> | 3 × 6–10 | [▶ Watch](https://www.youtube.com/watch?v=NwzUje3z0qY) · [▶ Alt: DB bench](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk) |
-| **Lat pulldown**, medium overhand grip <br><sub>Slight lean back, pull the bar to the upper chest, drive elbows down. Full stretch at the top.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=EUIri47Epcg) |
-| **Seated cable row**, neutral or close grip <br><sub>Let the shoulder blades reach forward at the start, then pull to the lower ribs.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=UCXxvVItLoM) |
+| **Lat pulldown**, medium overhand grip (or assisted pull-up) <br><sub>Slight lean back, pull the bar to the upper chest, drive elbows down. Full stretch at the top.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=EUIri47Epcg) · [▶ Alt: Assisted pull-up](https://www.youtube.com/watch?v=8ygapPMYK1I) |
+| **Seated cable row**, neutral or close grip (or chest-supported row machine) <br><sub>Let the shoulder blades reach forward at the start, then pull to the lower ribs.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=UCXxvVItLoM) · [▶ Alt: Machine row](https://www.youtube.com/watch?v=0UBRfiO4zDs) |
 
 ### 🟠 Middle · arms · pair these, 45 sec between
 
 | Exercise | Sets × Reps | Video |
 |---|---|---|
-| **Incline dumbbell curl** <br><sub>Bench at about 45°, arms hanging straight down and slightly back. Curl without moving the upper arm.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=aTYlqC_JacQ) |
-| **Overhead cable triceps extension**, rope <br><sub>Face away from the stack, elbows by the ears, deep stretch behind the head each rep.</sub> | 3 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=kqidUIf1eJE) |
+| **Incline dumbbell curl** (or standing dumbbell curl) <br><sub>Bench at about 45°, arms hanging straight down and slightly back. Curl without moving the upper arm.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=aTYlqC_JacQ) · [▶ Alt: Standing curl](https://www.youtube.com/watch?v=iixND1P2lik) |
+| **Overhead cable triceps extension**, rope (or dumbbell overhead extension) <br><sub>Face away from the stack, elbows by the ears, deep stretch behind the head each rep.</sub> | 3 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=kqidUIf1eJE) · [▶ Alt: DB overhead](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) |
 
 ### ⚪ Last · skip only these if short on time
 
@@ -59,7 +59,7 @@ Incline press, chest-supported row, shoulder press, arms, flyes, legs
 
 | Exercise | Sets × Reps | Video |
 |---|---|---|
-| **Incline dumbbell press**, 30° bench <br><sub>Lower to a deep stretch at upper-chest level, elbows about 45° out. Press up and slightly in.</sub> | 3 × 6–10 | [▶ Watch](https://www.youtube.com/watch?v=5CECBjd7HLQ) |
+| **Incline dumbbell press**, 30° bench (or Smith machine incline press) <br><sub>Lower to a deep stretch at upper-chest level, elbows about 45° out. Press up and slightly in.</sub> | 3 × 6–10 | [▶ Watch](https://www.youtube.com/watch?v=5CECBjd7HLQ) · [▶ Alt: Smith incline](https://www.youtube.com/watch?v=8urE8Z8AMQ4) |
 | **Chest-supported row** (machine, or dumbbells on an incline bench) <br><sub>Chest stays glued to the pad. Pull elbows back and squeeze the shoulder blades together.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=0UBRfiO4zDs) · [▶ Alt: DB on bench](https://www.youtube.com/watch?v=Nx0TzjgsI-0) |
 | **Machine shoulder press** (or seated dumbbell press) <br><sub>Start with handles at about chin height. Press up without flaring the ribs.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=WvLMauqrnK8) · [▶ Alt: DB press](https://www.youtube.com/watch?v=HzIiNhHhhtA) |
 
@@ -68,14 +68,14 @@ Incline press, chest-supported row, shoulder press, arms, flyes, legs
 | Exercise | Sets × Reps | Video |
 |---|---|---|
 | **Preacher curl**, machine or EZ bar <br><sub>Armpits on top of the pad. Lower almost to straight arms, then curl. No shoulder movement.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=sxA__DoLsgo) · [▶ Alt: Machine](https://www.youtube.com/watch?v=M_uPvGrMx_o) |
-| **Cable triceps pushdown** <br><sub>Elbows pinned to the sides. Push to lockout, let the forearms come up past 90° on the way back.</sub> | 3 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=6Fzep104f0s) |
+| **Cable triceps pushdown** (or skull crusher) <br><sub>Elbows pinned to the sides. Push to lockout, let the forearms come up past 90° on the way back.</sub> | 3 × 10–15 | [▶ Watch](https://www.youtube.com/watch?v=6Fzep104f0s) · [▶ Alt: Skull crusher](https://www.youtube.com/watch?v=OQ4TWXkZjTc) |
 
 ### ⚪ Last · skip only these if short on time
 
 | Exercise | Sets × Reps | Rest | Video |
 |---|---|---|---|
 | **Pec deck** (or cable fly) <br><sub>Handles at chest height. Open wide to a stretch, then bring the arms together with a slight elbow bend.</sub> | 2 × 10–15 | 60 sec | [▶ Watch](https://www.youtube.com/watch?v=O-OBCfyh9Fw) · [▶ Alt: Cable fly](https://www.youtube.com/watch?v=4mfLHnFL0Uw) |
-| **Seated leg curl** <br><sub>Pad just above the heels. Curl all the way down and control the return. Do 1 light ramp set first.</sub> | 3 × 8–12 | 2 min | [▶ Watch](https://www.youtube.com/watch?v=Orxowest56U) |
+| **Seated leg curl** (or lying leg curl) <br><sub>Pad just above the heels. Curl all the way down and control the return. Do 1 light ramp set first.</sub> | 3 × 8–12 | 2 min | [▶ Watch](https://www.youtube.com/watch?v=Orxowest56U) · [▶ Alt: Lying curl](https://www.youtube.com/watch?v=n5WDXD_mpVY) |
 
 ## Day C
 
@@ -87,7 +87,7 @@ Dumbbell press, pull-ups, dumbbell row, arms, rear delts, legs
 |---|---|---|
 | **Flat dumbbell bench press** (or machine press, whichever you skipped on Day A) <br><sub>Shoulder blades back and down. Deep stretch beside the chest, press up and slightly in.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk) · [▶ Alt: Machine press](https://www.youtube.com/watch?v=NwzUje3z0qY) |
 | **Assisted pull-up** (or neutral-grip pulldown) <br><sub>Set assistance so you can just hit 6 reps. Full hang at the bottom, chin over the bar at the top.</sub> | 3 × 6–10 | [▶ Watch](https://www.youtube.com/watch?v=8ygapPMYK1I) · [▶ Alt: Neutral pulldown](https://www.youtube.com/watch?v=GRHLNfmr_oI) |
-| **One-arm dumbbell row** <br><sub>Hand and knee on the bench. Let the dumbbell hang to a stretch, then row to the hip. No twisting.</sub> | 3 × 8–12 each | [▶ Watch](https://www.youtube.com/watch?v=k2kVniB5eQI) |
+| **One-arm dumbbell row** (or seated cable row) <br><sub>Hand and knee on the bench. Let the dumbbell hang to a stretch, then row to the hip. No twisting.</sub> | 3 × 8–12 each | [▶ Watch](https://www.youtube.com/watch?v=k2kVniB5eQI) · [▶ Alt: Cable row](https://www.youtube.com/watch?v=UCXxvVItLoM) |
 
 ### 🟠 Middle · arms · pair these, 45 sec between
 
