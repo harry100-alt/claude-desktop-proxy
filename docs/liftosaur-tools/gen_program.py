@@ -4,9 +4,9 @@ yt = "https://www.youtube.com/watch?v="
 #  sub name, sub video id, cue)
 DAYS = {
 "A": {
- "desc": ["**main:** chest press, lat pulldown, cable row.",
-          "**arms:** incline curl + overhead extension, paired.",
-          "**extra:** lateral raise, shrug, hack squat. Cut here if short on time.",
+ "desc": ["🟢 **main:** chest press, lat pulldown, cable row.",
+          "🟠 **arms:** incline curl + overhead extension, paired.",
+          "⚪ **extra:** lateral raise, shrug, hack squat. Cut here if short on time.",
           "Machine taken? Do the next exercise and come back, or tap the exercise and swap to the substitute listed."],
  "ex": [
   ("main: Chest Press, Leverage Machine", "3x6", "35kg 120s", "1x8 50%, 1x4 75%", None, "dp(2.5kg, 6, 10)", "NwzUje3z0qY",
@@ -27,9 +27,9 @@ DAYS = {
    "Leg press", "yZmx_Ac3880", "Feet mid-platform, shoulder width. As deep as you can with heels down. Weight is plates only, not the sled."),
  ]},
 "B": {
- "desc": ["**main:** incline press, chest-supported row, shoulder press.",
-          "**arms:** preacher curl + pushdown, paired.",
-          "**extra:** pec deck, leg curl. Cut here if short on time.",
+ "desc": ["🟢 **main:** incline press, chest-supported row, shoulder press.",
+          "🟠 **arms:** preacher curl + pushdown, paired.",
+          "⚪ **extra:** pec deck, leg curl. Cut here if short on time.",
           "Machine taken? Do the next exercise and come back, or tap the exercise and swap to the substitute listed."],
  "ex": [
   ("main: Incline Bench Press, Dumbbell", "3x6", "12kg 120s", "1x8 50%, 1x4 75%", None, "dp(2kg, 6, 10)", "5CECBjd7HLQ",
@@ -48,9 +48,9 @@ DAYS = {
    "Lying leg curl", "n5WDXD_mpVY", "Pad just above the heels. Curl all the way down and control the return."),
  ]},
 "C": {
- "desc": ["**main:** dumbbell bench, chin-up, one-arm row.",
-          "**arms:** Bayesian curl + dumbbell overhead extension, paired.",
-          "**extra:** reverse pec deck, shrug, leg press. Cut here if short on time.",
+ "desc": ["🟢 **main:** dumbbell bench, chin-up, one-arm row.",
+          "🟠 **arms:** Bayesian curl + dumbbell overhead extension, paired.",
+          "⚪ **extra:** reverse pec deck, shrug, leg press. Cut here if short on time.",
           "Machine taken? Do the next exercise and come back, or tap the exercise and swap to the substitute listed."],
  "ex": [
   ("main: Bench Press, Dumbbell", "3x8", "14kg 120s", "1x8 50%, 1x4 75%", None, "dp(2kg, 8, 12)", "YQ2s_Y7g5Qk",
@@ -72,16 +72,7 @@ DAYS = {
  ]},
 }
 
-CHINUP = """main: Chin Up, Leverage Machine / 3x6 40kg 120s / warmup: 1x5 55kg / progress: custom() {~
-  if (completedReps >= reps) {
-    if (reps[1] < 10) {
-      reps += 1
-    } else {
-      reps = 6
-      weights -= 2.5kg
-    }
-  }
-~}"""
+CHINUP = "main: Chin Up, Leverage Machine / 3x6 40kg 120s / warmup: 1x5 55kg / progress: dp(-2.5kg, 6, 10)"
 
 out = []
 out.append("""/// Upper-Body Hypertrophy, 3 days a week. Arms priority. Machines, no squat rack.
@@ -90,7 +81,7 @@ out.append("""/// Upper-Body Hypertrophy, 3 days a week. Arms priority. Machines
 
 // **Read this first**
 // * Mon / Wed / Fri, or any three non-consecutive days. A, B, C in order.
-// * Each exercise is tagged: **main** = presses and pulls, never skip. **arms** = the pair, 45 sec between. **extra** = delts, flyes, legs, cut these if short on time.
+// * Every exercise note starts with a colour. 🟢 MAIN = presses and pulls, never skip. 🟠 ARMS = the pair, 45 sec between. ⚪ EXTRA = delts, flyes, legs, cut these if short on time.
 // * Weeks 1 to 3: stop 3 to 4 reps short of failure. From week 4: 1 to 2 short. Last set of arm work can go to failure.
 // * Progression is automatic: complete every prescribed rep and the app adds a rep next time, then weight at the top of the range.
 // * Ramp-up sets are built in where needed. Nothing else needs a warm-up.
@@ -106,12 +97,14 @@ for day, d in DAYS.items():
     out.append(f"## Day {day}")
     out.append("")
     for (name, sets, wt, wu, ss, prog, vid, subname, subvid, cue) in d["ex"]:
-        out.append(f"// [▶ Watch]({yt}{vid}) · Sub: {subname} [▶ video]({yt}{subvid})")
+        group = name.split(":")[0] if ":" in name else ("main" if name == "CHINUP" else "extra")
+        dot = {"main": "🟢 MAIN", "arms": "🟠 ARMS", "extra": "⚪ EXTRA"}[group]
+        out.append(f"// {dot} · [▶ Watch]({yt}{vid}) · Sub: {subname} [▶ video]({yt}{subvid})")
         out.append(f"// {cue}")
         if name == "CHINUP":
             out.append(CHINUP)
         elif name == "SHRUG_REUSE":
-            out.append("extra: Shrug, Dumbbell / ...extra: Shrug, Dumbbell[1]")
+            out.append("extra: Shrug, Dumbbell / 3x10 22kg 60s / warmup: none / progress: dp(2kg, 10, 15)")
         else:
             parts = [name, f"{sets} {wt}", f"warmup: {wu}"]
             if ss:
