@@ -19,6 +19,23 @@ Read this before touching the Liftosaur program. It records what was learned the
 - Chin-up weight is the machine assistance, so the program decrements it. Do not enable "Is assisting" or "Bodyweight for bar" in equipment settings, those apply to every Leverage Machine exercise.
 - Substitutes are listed in descriptions with links. There is no per-slot toggle. The user taps the exercise and uses Swap in the workout.
 
+## How substitutes work (decided, do not revisit without new information)
+
+The program lists only the main exercises. Substitutes live in each exercise's description with a video link. In the workout the user taps the exercise's menu, chooses Swap Exercise, and picks the substitute. Verified in source (`src/models/progress.ts`, `Progress_changeExercise` and `swapDerivedWeight`):
+
+- The swapped exercise's set weights are filled from the user's own last logged session of that exercise, scaled to today's rep target. With no history it falls back to the exercise's starting weight.
+- By default the swapped entry is detached from the program exercise (`shouldKeepProgramExerciseId` is off), so doing the substitute does not advance the main exercise's progression.
+- Recent swaps are remembered (`Settings_addRecentSwap`) and surface in the picker, so after the first time it is a two-tap operation.
+- The picker has a Substitute tab that suggests exercises by matching muscles.
+
+What this does not do: prescribe a rep target for the substitute. The user applies the double-progression rule by hand for that one exercise on that one day.
+
+Rejected approaches, and why:
+
+- Listing every substitute as its own exercise line under the main one. Works mechanically (an unlogged exercise neither progresses nor regresses) but doubles every day's list. The user rejected it as too cluttered.
+- Exercise variations with `|`. All variations share one weight and one progression, so they cannot hold a lighter substitute. No workout-screen control switches them; only scripts can.
+- Switching apps. No free app has programmed substitutes with their own progression. Hevy and Strong swap as easily but have no automatic progression at all.
+
 ## Liftoscript essentials
 
 Full reference: `https://www.liftosaur.com/doc/liftoscript` (curl works; Chromium does not, see below).
