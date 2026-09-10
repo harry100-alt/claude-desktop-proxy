@@ -4,7 +4,7 @@
 
 // **Read this first**
 // * Mon / Wed / Fri, or any three non-consecutive days. A, B, C in order.
-// * Each day: First group (press + pulls, never skip), then arms (paired, 45 sec between), then Last group (skippable).
+// * Each exercise is tagged: **main** = presses and pulls, never skip. **arms** = the pair, 45 sec between. **extra** = delts, flyes, legs, cut these if short on time.
 // * Weeks 1 to 3: stop 3 to 4 reps short of failure. From week 4: 1 to 2 short. Last set of arm work can go to failure.
 // * Progression is automatic: complete every prescribed rep and the app adds a rep next time, then weight at the top of the range.
 // * Ramp-up sets are built in where needed. Nothing else needs a warm-up.
@@ -13,93 +13,93 @@
 # Week 1
 
 
-// **First · never skip:** chest press, lat pulldown, cable row.
-// **Middle · arms, paired:** incline curl + overhead extension.
-// **Last · cut here if short on time:** lateral raise, shrug, hack squat.
+// **main:** chest press, lat pulldown, cable row.
+// **arms:** incline curl + overhead extension, paired.
+// **extra:** lateral raise, shrug, hack squat. Cut here if short on time.
 // Machine taken? Do the next exercise and come back, or tap the exercise and swap to the substitute listed.
 ## Day A
 
 // [▶ Watch](https://www.youtube.com/watch?v=NwzUje3z0qY) · Sub: Flat dumbbell bench [▶ video](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk)
 // Handles at mid-chest height. Full stretch at the back, elbows about 45° from the body.
-Chest Press, Leverage Machine / 3x6 35kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2.5kg, 6, 10)
+main: Chest Press, Leverage Machine / 3x6 35kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2.5kg, 6, 10)
 
 // [▶ Watch](https://www.youtube.com/watch?v=EUIri47Epcg) · Sub: Assisted pull-up [▶ video](https://www.youtube.com/watch?v=8ygapPMYK1I)
 // Slight lean back, pull the bar to the upper chest, drive elbows down. Full stretch at the top.
-Lat Pulldown, Cable / 3x8 40kg 120s / warmup: 1x6 60% / progress: dp(2.5kg, 8, 12)
+main: Lat Pulldown, Cable / 3x8 40kg 120s / warmup: 1x6 60% / progress: dp(2.5kg, 8, 12)
 
 // [▶ Watch](https://www.youtube.com/watch?v=UCXxvVItLoM) · Sub: Chest-supported row machine [▶ video](https://www.youtube.com/watch?v=0UBRfiO4zDs)
 // Let the shoulder blades reach forward at the start, then pull to the lower ribs.
-Seated Row, Cable / 3x8 40kg 120s / warmup: none / progress: dp(2.5kg, 8, 12)
+main: Seated Row, Cable / 3x8 40kg 120s / warmup: none / progress: dp(2.5kg, 8, 12)
 
 // [▶ Watch](https://www.youtube.com/watch?v=aTYlqC_JacQ) · Sub: Standing dumbbell curl [▶ video](https://www.youtube.com/watch?v=iixND1P2lik)
 // Bench at about 45°, arms hanging straight down and slightly back. Curl without moving the upper arm.
-Incline Curl, Dumbbell / 4x8 8kg 45s / warmup: none / superset: A / progress: dp(2kg, 8, 12)
+arms: Incline Curl, Dumbbell / 4x8 8kg 45s / warmup: none / superset: A / progress: dp(2kg, 8, 12)
 
 // [▶ Watch](https://www.youtube.com/watch?v=kqidUIf1eJE) · Sub: Dumbbell overhead extension [▶ video](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q)
 // Overhead, rope. Face away from the stack, elbows by the ears, deep stretch behind the head each rep.
-overhead: Triceps Extension, Cable / 4x10 25kg 45s / warmup: none / superset: A / progress: dp(2.5kg, 10, 15)
+arms: Triceps Extension, Cable / 4x10 25kg 45s / warmup: none / superset: A / progress: dp(2.5kg, 10, 15)
 
 // [▶ Watch](https://www.youtube.com/watch?v=3VcKaXpzqRo) · Sub: Cable lateral raise [▶ video](https://www.youtube.com/watch?v=lq7eLC30b9w)
 // Slight forward lean, lead with the elbows, stop at shoulder height. Light weight, no swinging.
-Lateral Raise, Dumbbell / 3x12 6kg 60s / warmup: none / progress: dp(1kg, 12, 15)
+extra: Lateral Raise, Dumbbell / 3x12 6kg 60s / warmup: none / progress: dp(1kg, 12, 15)
 
 // [▶ Watch](https://www.youtube.com/watch?v=_t3lrPI6Ns4) · Sub: Barbell or Smith machine shrug [▶ video](https://www.youtube.com/watch?v=M_MjF5Nm_h4)
 // Full stretch at the bottom, shrug straight up, hold 1 second at the top. No rolling.
-Shrug, Dumbbell / 3x10 22kg 60s / warmup: none / progress: dp(2kg, 10, 15)
+extra: Shrug, Dumbbell / 3x10 22kg 60s / warmup: none / progress: dp(2kg, 10, 15)
 
 // [▶ Watch](https://www.youtube.com/watch?v=rYgNArpwE7E) · Sub: Leg press [▶ video](https://www.youtube.com/watch?v=yZmx_Ac3880)
 // Feet mid-platform, shoulder width. As deep as you can with heels down. Weight is plates only, not the sled.
-Hack Squat, Leverage Machine / 3x8 50kg 120s / warmup: 1x6 50% / progress: dp(10kg, 8, 12)
+extra: Hack Squat, Leverage Machine / 3x8 50kg 120s / warmup: 1x6 50% / progress: dp(10kg, 8, 12)
 
 
-// **First · never skip:** incline press, chest-supported row, shoulder press.
-// **Middle · arms, paired:** preacher curl + pushdown.
-// **Last · cut here if short on time:** pec deck, leg curl.
+// **main:** incline press, chest-supported row, shoulder press.
+// **arms:** preacher curl + pushdown, paired.
+// **extra:** pec deck, leg curl. Cut here if short on time.
 // Machine taken? Do the next exercise and come back, or tap the exercise and swap to the substitute listed.
 ## Day B
 
 // [▶ Watch](https://www.youtube.com/watch?v=5CECBjd7HLQ) · Sub: Smith machine incline press [▶ video](https://www.youtube.com/watch?v=8urE8Z8AMQ4)
 // 30° bench. Deep stretch at upper-chest level, elbows about 45° out. Press up and slightly in.
-Incline Bench Press, Dumbbell / 3x6 12kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2kg, 6, 10)
+main: Incline Bench Press, Dumbbell / 3x6 12kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2kg, 6, 10)
 
 // [▶ Watch](https://www.youtube.com/watch?v=0UBRfiO4zDs) · Sub: Dumbbell row on an incline bench [▶ video](https://www.youtube.com/watch?v=Nx0TzjgsI-0)
 // Chest glued to the pad. Pull elbows back and squeeze the shoulder blades together.
-Chest-Supported Row, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / progress: dp(2.5kg, 8, 12)
+main: Chest-Supported Row, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / progress: dp(2.5kg, 8, 12)
 
 // [▶ Watch](https://www.youtube.com/watch?v=WvLMauqrnK8) · Sub: Seated dumbbell shoulder press [▶ video](https://www.youtube.com/watch?v=HzIiNhHhhtA)
 // Start with handles at about chin height. Press up without flaring the ribs.
-Shoulder Press, Leverage Machine / 3x8 25kg 120s / warmup: none / progress: dp(2.5kg, 8, 12)
+main: Shoulder Press, Leverage Machine / 3x8 25kg 120s / warmup: none / progress: dp(2.5kg, 8, 12)
 
 // [▶ Watch](https://www.youtube.com/watch?v=sxA__DoLsgo) · Sub: Preacher curl machine [▶ video](https://www.youtube.com/watch?v=M_uPvGrMx_o)
 // Armpits on top of the pad. Lower almost to straight arms, then curl. No shoulder movement. Weight includes the bar, about 8 kg.
-Preacher Curl, EZ Bar / 4x8 15kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 8, 12)
+arms: Preacher Curl, EZ Bar / 4x8 15kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 8, 12)
 
 // [▶ Watch](https://www.youtube.com/watch?v=6Fzep104f0s) · Sub: Skull crusher [▶ video](https://www.youtube.com/watch?v=OQ4TWXkZjTc)
 // Elbows pinned to the sides. Push to lockout, let the forearms come up past 90° on the way back.
-Triceps Pushdown, Cable / 4x10 25kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 10, 15)
+arms: Triceps Pushdown, Cable / 4x10 25kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 10, 15)
 
 // [▶ Watch](https://www.youtube.com/watch?v=O-OBCfyh9Fw) · Sub: Cable fly [▶ video](https://www.youtube.com/watch?v=4mfLHnFL0Uw)
 // Handles at chest height. Open wide to a stretch, then bring the arms together with a slight elbow bend.
-Pec Deck, Leverage Machine / 2x10 35kg 60s / warmup: none / progress: dp(2.5kg, 10, 15)
+extra: Pec Deck, Leverage Machine / 2x10 35kg 60s / warmup: none / progress: dp(2.5kg, 10, 15)
 
 // [▶ Watch](https://www.youtube.com/watch?v=Orxowest56U) · Sub: Lying leg curl [▶ video](https://www.youtube.com/watch?v=n5WDXD_mpVY)
 // Pad just above the heels. Curl all the way down and control the return.
-Seated Leg Curl, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / progress: dp(5kg, 8, 12)
+extra: Seated Leg Curl, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / progress: dp(5kg, 8, 12)
 
 
-// **First · never skip:** dumbbell bench, chin-up, one-arm row.
-// **Middle · arms, paired:** Bayesian curl + dumbbell overhead extension.
-// **Last · cut here if short on time:** reverse pec deck, shrug, leg press.
+// **main:** dumbbell bench, chin-up, one-arm row.
+// **arms:** Bayesian curl + dumbbell overhead extension, paired.
+// **extra:** reverse pec deck, shrug, leg press. Cut here if short on time.
 // Machine taken? Do the next exercise and come back, or tap the exercise and swap to the substitute listed.
 ## Day C
 
 // [▶ Watch](https://www.youtube.com/watch?v=YQ2s_Y7g5Qk) · Sub: Machine chest press [▶ video](https://www.youtube.com/watch?v=NwzUje3z0qY)
 // Shoulder blades back and down. Deep stretch beside the chest, press up and slightly in.
-Bench Press, Dumbbell / 3x8 14kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2kg, 8, 12)
+main: Bench Press, Dumbbell / 3x8 14kg 120s / warmup: 1x8 50%, 1x4 75% / progress: dp(2kg, 8, 12)
 
 // [▶ Watch](https://www.youtube.com/watch?v=9JC1EwqezGY) · Sub: Neutral-grip pulldown [▶ video](https://www.youtube.com/watch?v=GRHLNfmr_oI)
 // Underhand grip, palms facing you, shoulder width. Weight here is the ASSISTANCE, lower is harder. Full hang, chin over the bar.
-Chin Up, Leverage Machine / 3x6 40kg 120s / warmup: 1x5 55kg / progress: custom() {~
+main: Chin Up, Leverage Machine / 3x6 40kg 120s / warmup: 1x5 55kg / progress: custom() {~
   if (completedReps >= reps) {
     if (reps[1] < 10) {
       reps += 1
@@ -112,24 +112,24 @@ Chin Up, Leverage Machine / 3x6 40kg 120s / warmup: 1x5 55kg / progress: custom(
 
 // [▶ Watch](https://www.youtube.com/watch?v=k2kVniB5eQI) · Sub: Seated cable row [▶ video](https://www.youtube.com/watch?v=UCXxvVItLoM)
 // Hand and knee on the bench. Let the dumbbell hang to a stretch, then row to the hip. No twisting.
-Bent Over One Arm Row, Dumbbell / 3x8 16kg 120s / warmup: none / progress: dp(2kg, 8, 12)
+main: Bent Over One Arm Row, Dumbbell / 3x8 16kg 120s / warmup: none / progress: dp(2kg, 8, 12)
 
 // [▶ Watch](https://www.youtube.com/watch?v=paM4Yo8fo8g) · Sub: Hammer curl [▶ video](https://www.youtube.com/watch?v=XOEL4MgekYE)
 // Bayesian curl, one arm at a time. Low pulley behind you, step forward so the arm is stretched behind the torso. Upper arm fixed.
-Bicep Curl, Cable / 4x8 12.5kg 45s / warmup: none / superset: C / progress: dp(2.5kg, 8, 12)
+arms: Bicep Curl, Cable / 4x8 12.5kg 45s / warmup: none / superset: C / progress: dp(2.5kg, 8, 12)
 
 // [▶ Watch](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) · Sub: Skull crusher [▶ video](https://www.youtube.com/watch?v=OQ4TWXkZjTc)
 // Both hands under one dumbbell, elbows pointing forward, lower behind the head to a deep stretch.
-db: Triceps Extension, Dumbbell / 4x10 16kg 45s / warmup: none / superset: C / progress: dp(2kg, 10, 15)
+arms: Triceps Extension, Dumbbell / 4x10 16kg 45s / warmup: none / superset: C / progress: dp(2kg, 10, 15)
 
 // [▶ Watch](https://www.youtube.com/watch?v=5YK4bgzXDp0) · Sub: Cable face pull [▶ video](https://www.youtube.com/watch?v=-MODnZdnmAQ)
 // Chest on the pad, arms slightly bent, sweep the handles back until the arms are in line with the shoulders.
-Reverse Fly, Leverage Machine / 3x12 30kg 60s / warmup: none / progress: dp(2.5kg, 12, 15)
+extra: Reverse Fly, Leverage Machine / 3x12 30kg 60s / warmup: none / progress: dp(2.5kg, 12, 15)
 
 // [▶ Watch](https://www.youtube.com/watch?v=_t3lrPI6Ns4) · Sub: Barbell or Smith machine shrug [▶ video](https://www.youtube.com/watch?v=M_MjF5Nm_h4)
 // Full stretch at the bottom, shrug straight up, hold 1 second at the top. No rolling.
-Shrug, Dumbbell / ...Shrug[1]
+extra: Shrug, Dumbbell / ...extra: Shrug, Dumbbell[1]
 
 // [▶ Watch](https://www.youtube.com/watch?v=yZmx_Ac3880) · Sub: Leg extension [▶ video](https://www.youtube.com/watch?v=m0FOpMEgero)
 // Feet shoulder width, lower until the thighs nearly touch the torso. Keep the lower back on the pad. Plates only, not the sled.
-Leg Press, Leverage Machine / 3x10 80kg 120s / warmup: 1x8 50% / progress: dp(10kg, 10, 15)
+extra: Leg Press, Leverage Machine / 3x10 80kg 120s / warmup: 1x8 50% / progress: dp(10kg, 10, 15)
