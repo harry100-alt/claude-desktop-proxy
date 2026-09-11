@@ -1,0 +1,12 @@
+// Minimal Gradle build for an external RuneLite plugin.
+// Point `runeliteVersion` at the version your server's client is based on (check its build.gradle / pom.xml).
+plugins { id 'java' }
+repositories { mavenCentral(); maven { url 'https://repo.runelite.net' } }
+def runeliteVersion = '1.12.35'   // <-- change to match your client
+dependencies {
+    compileOnly group: 'net.runelite', name: 'client', version: runeliteVersion
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+}
+java { toolchain { languageVersion = JavaLanguageVersion.of(11) } }
+// Output jar goes in ~/.runelite/sideloaded-plugins/ on forks that support sideloading (Microbot etc.).

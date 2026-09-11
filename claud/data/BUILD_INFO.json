@@ -1,0 +1,24 @@
+{
+  "built_utc": "2026-09-11T03:59:06Z",
+  "sources": {
+    "runelite_gameval": "https://raw.githubusercontent.com/runelite/runelite/master/runelite-api/src/main/java/net/runelite/api/gameval/",
+    "chisel": "https://chisel.weirdgloop.org/moid/data_files/",
+    "prices_mapping": "https://prices.runescape.wiki/api/v1/osrs/mapping"
+  },
+  "row_counts": {
+    "items": 34603,
+    "npcs": 16576,
+    "objects": 62510,
+    "animations": 14491,
+    "varbits": 13245,
+    "varps": 2935,
+    "inventories": 1029,
+    "spotanims": 4022,
+    "sprites": 8560,
+    "varclient": 1508,
+    "dbtables": 18107,
+    "interface_groups": 969,
+    "interface_children": 26405,
+    "ge_items": 4662
+  }
+}
