@@ -9,9 +9,8 @@ Full-body layout with an upper-body bias. Chest, back, and arms are trained ever
 - **If a machine is taken:** do another exercise from the same group and come back, or swap in the listed alternative. Every exercise has two video links: the main exercise and its substitute. Same movement pattern and rep range is what counts, not the machine. Only ever skip from the Last group, and never skip a press or a pull.
 - **Effort:** weeks 1 to 3 stop 3 to 4 reps short of failure while you learn form. From week 4, end every set 1 to 2 reps short of failure. The last set of any machine or isolation exercise can go to failure.
 - **Progression:** when you hit the top of the rep range on **every** set, add the smallest weight increment next session and build back up. Until then, beat last time on at least one set. Log every set.
-- **Rest:** 2 min on presses, rows, pulldowns, and leg movements. 60 to 90 sec on isolation work. Use a timer.
+- **Rest:** 2 min on presses, rows, pulldowns, and leg movements. 75 sec on arm work, 60 sec on delts, flyes, and shrugs. Use a timer.
 - **Warm-up:** 5 min easy skipping at home. At the gym, 2 light ramp-up sets on the first exercise of the day and 1 on the next press or pull. Ramp sets are half to three-quarters of working weight, easy, and do not count as sets. Nothing else needs a warm-up.
-- **Save time:** pair the two arm exercises in the Middle group. One set of curls, 45 sec rest, one set of triceps, 45 sec rest, repeat.
 - **Tempo:** full range of motion. Lower under control for 2 to 3 seconds. Feel the stretch at the bottom of presses, curls, and extensions.
 - **Deload:** every 6 to 8 weeks, or when most lifts go backwards for two weeks, do one week at half the sets with the same weights.
 
@@ -37,7 +36,7 @@ Chest press, vertical and horizontal pull, arms, side delts, traps, legs
 | **Lat pulldown**, medium overhand grip (or assisted pull-up) <br><sub>Slight lean back, pull the bar to the upper chest, drive elbows down. Full stretch at the top.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=EUIri47Epcg) · [▶ Alt: Assisted pull-up](https://www.youtube.com/watch?v=8ygapPMYK1I) |
 | **Seated cable row**, neutral or close grip (or chest-supported row machine) <br><sub>Let the shoulder blades reach forward at the start, then pull to the lower ribs.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=UCXxvVItLoM) · [▶ Alt: Machine row](https://www.youtube.com/watch?v=0UBRfiO4zDs) |
 
-### 🟠 Middle · arms · pair these, 45 sec between
+### 🟠 Middle · arms · 75 sec rest
 
 | Exercise | Sets × Reps | Video |
 |---|---|---|
@@ -64,7 +63,7 @@ Incline press, chest-supported row, shoulder press, arms, flyes, legs
 | **Chest-supported row** (machine, or dumbbells on an incline bench) <br><sub>Chest stays glued to the pad. Pull elbows back and squeeze the shoulder blades together.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=0UBRfiO4zDs) · [▶ Alt: DB on bench](https://www.youtube.com/watch?v=Nx0TzjgsI-0) |
 | **Machine shoulder press** (or seated dumbbell press) <br><sub>Start with handles at about chin height. Press up without flaring the ribs.</sub> | 3 × 8–12 | [▶ Watch](https://www.youtube.com/watch?v=WvLMauqrnK8) · [▶ Alt: DB press](https://www.youtube.com/watch?v=HzIiNhHhhtA) |
 
-### 🟠 Middle · arms · pair these, 45 sec between
+### 🟠 Middle · arms · 75 sec rest
 
 | Exercise | Sets × Reps | Video |
 |---|---|---|
@@ -90,7 +89,7 @@ Dumbbell press, chin-ups, dumbbell row, arms, rear delts, traps, legs
 | **Assisted chin-up**, underhand grip (or neutral-grip pulldown) <br><sub>Palms facing you, shoulder width. Set assistance so you can just hit 6 reps. Full hang at the bottom, chin over the bar at the top.</sub> | 3 × 6–10 | [▶ Watch](https://www.youtube.com/watch?v=9JC1EwqezGY) · [▶ Alt: Neutral pulldown](https://www.youtube.com/watch?v=GRHLNfmr_oI) |
 | **One-arm dumbbell row** (or seated cable row) <br><sub>Hand and knee on the bench. Let the dumbbell hang to a stretch, then row to the hip. No twisting.</sub> | 3 × 8–12 each | [▶ Watch](https://www.youtube.com/watch?v=k2kVniB5eQI) · [▶ Alt: Cable row](https://www.youtube.com/watch?v=UCXxvVItLoM) |
 
-### 🟠 Middle · arms · pair these, 45 sec between
+### 🟠 Middle · arms · 75 sec rest
 
 | Exercise | Sets × Reps | Video |
 |---|---|---|
@@ -112,7 +111,7 @@ Dumbbell press, chin-ups, dumbbell row, arms, rear delts, traps, legs
 | Group | What is in it | Rule |
 |---|---|---|
 | 🟢 **First** | Presses, pulldowns, rows, shoulder press | The chest and back volume. Always done, always fresh. Substitute if a machine is taken, never skip. |
-| 🟠 **Middle** | One biceps and one triceps exercise | Direct arm work. Pair them to save time. Substitute rather than skip. |
+| 🟠 **Middle** | One biceps and one triceps exercise, 4 sets each | Direct arm work. Substitute rather than skip. |
 | ⚪ **Last** | Side or rear delts, flyes, shrugs, the leg movement | Nice to have. If you are out of time or the machine is busy, this is where you cut. Try not to skip legs more than 1 session in 3. |
 
 ## Weekly volume check

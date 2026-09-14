@@ -22,7 +22,7 @@ For everything the app can do in general (features, full Liftoscript syntax, scr
 - REST API and MCP server both require Premium and an API key starting `lftsk_`. Do not ask the user to paste a key into chat.
 - Chin-up weight is the machine assistance, so the program decrements it. Do not enable "Is assisting" or "Bodyweight for bar" in equipment settings, those apply to every Leverage Machine exercise.
 - Substitutes are hidden `used: none` program exercises with their own weight and progression; each visible exercise's note names which one to pick after Swap Exercise. See the substitutes section.
-- Group system: every exercise note starts with 🟢 MAIN (press and pulls, never skip), 🟠 ARMS (the pair), or ⚪ EXTRA (skippable). Exercises also carry `main:` / `arms:` / `extra:` labels. The user wants it obvious at a glance; do not add more tiers or rename them without asking.
+- Group system: every exercise note starts with 🟢 MAIN (press and pulls, never skip), 🟠 ARMS (curls and triceps, no supersets, 75 sec rest; the user removed supersets on 2026-09-14), or ⚪ EXTRA (skippable). Exercises also carry `main:` / `arms:` / `extra:` labels. The user wants it obvious at a glance; do not add more tiers or rename them without asking.
 - The app has no colour system for exercises. Red underlines in the editor are parse errors and the program will not save while they exist. Emoji in descriptions are the only visual tag that renders in the workout.
 - The user's installed app may be older than the GitHub source used for validation. Prefer plain syntax: built-in `dp` over `custom()` scripts, full repeated lines over labelled `...reuse`. If the user reports red underlines, ask for the tap-to-see message and the exercise.
 

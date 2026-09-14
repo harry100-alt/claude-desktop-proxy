@@ -4,7 +4,7 @@
 
 // **Read this first**
 // * Mon / Wed / Fri, or any three non-consecutive days. A, B, C in order.
-// * Every exercise note starts with a colour. 🟢 MAIN = presses and pulls, never skip. 🟠 ARMS = the pair, 45 sec between. ⚪ EXTRA = delts, flyes, legs, cut these if short on time.
+// * Every exercise note starts with a colour. 🟢 MAIN = presses and pulls, never skip. 🟠 ARMS = curls and triceps, 75 sec rest. ⚪ EXTRA = delts, flyes, legs, cut these if short on time.
 // * Weeks 1 to 3: stop 3 to 4 reps short of failure. From week 4: 1 to 2 short. Last set of arm work can go to failure.
 // * Progression is automatic: complete every prescribed rep and the app adds a rep next time, then weight at the top of the range.
 // * Tired day and you lowered the weight? After the last set of that exercise tap **Suppress** next to the progress note, so next session keeps your normal numbers. Otherwise the app builds on the lighter weight.
@@ -15,7 +15,7 @@
 
 
 // 🟢 **main:** chest press, lat pulldown, cable row.
-// 🟠 **arms:** incline curl + overhead extension, paired.
+// 🟠 **arms:** incline curl, overhead extension.
 // ⚪ **extra:** lateral raise, shrug, hack squat. Cut here if short on time.
 // Machine taken? Tap the exercise, Swap Exercise, open the From Program tab. Its substitute is listed right under it, marked sub. It brings its own weight and progression.
 ## Day A
@@ -43,17 +43,17 @@ sub: Chest-Supported Row, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / u
 
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=aTYlqC_JacQ) · Sub: swap to *sub: Bicep Curl, Dumbbell* [▶ video](https://www.youtube.com/watch?v=iixND1P2lik)
 // Bench at about 45°, arms hanging straight down and slightly back. Curl without moving the upper arm.
-arms: Incline Curl, Dumbbell / 4x8 8kg 45s / warmup: none / superset: A / progress: dp(2kg, 8, 12)
+arms: Incline Curl, Dumbbell / 4x8 8kg 75s / warmup: none / progress: dp(2kg, 8, 12)
 
 // ⚪ SUB for Incline Curl · [▶ Watch](https://www.youtube.com/watch?v=iixND1P2lik) · Hidden. Pick *sub: Bicep Curl, Dumbbell* after Swap Exercise.
-sub: Bicep Curl, Dumbbell / 4x8 10kg 45s / warmup: none / used: none / progress: dp(2kg, 8, 12)
+sub: Bicep Curl, Dumbbell / 4x8 10kg 75s / warmup: none / used: none / progress: dp(2kg, 8, 12)
 
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=kqidUIf1eJE) · Sub: swap to *sub: Triceps Extension, Dumbbell* [▶ video](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q)
 // Overhead, rope. Face away from the stack, elbows by the ears, deep stretch behind the head each rep.
-arms: Triceps Extension, Cable / 4x10 25kg 45s / warmup: none / superset: A / progress: dp(2.5kg, 10, 15)
+arms: Triceps Extension, Cable / 4x10 25kg 75s / warmup: none / progress: dp(2.5kg, 10, 15)
 
 // ⚪ SUB for Triceps Extension · [▶ Watch](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) · Hidden. Pick *sub: Triceps Extension, Dumbbell* after Swap Exercise.
-sub: Triceps Extension, Dumbbell / 4x10 16kg 45s / warmup: none / used: none / progress: dp(2kg, 10, 15)
+sub: Triceps Extension, Dumbbell / 4x10 16kg 75s / warmup: none / used: none / progress: dp(2kg, 10, 15)
 
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=3VcKaXpzqRo) · Sub: swap to *sub: Lateral Raise, Cable* [▶ video](https://www.youtube.com/watch?v=lq7eLC30b9w)
 // Slight forward lean, lead with the elbows, stop at shoulder height. Light weight, no swinging.
@@ -78,7 +78,7 @@ sub: Leg Press, Leverage Machine / 3x10 80kg 120s / warmup: 1x8 50% / used: none
 
 
 // 🟢 **main:** incline press, chest-supported row, shoulder press.
-// 🟠 **arms:** preacher curl + pushdown, paired.
+// 🟠 **arms:** preacher curl, pushdown.
 // ⚪ **extra:** pec deck, leg curl. Cut here if short on time.
 // Machine taken? Tap the exercise, Swap Exercise, open the From Program tab. Its substitute is listed right under it, marked sub. It brings its own weight and progression.
 ## Day B
@@ -106,17 +106,17 @@ sub: Shoulder Press, Dumbbell / 3x8 10kg 120s / warmup: none / used: none / prog
 
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=sxA__DoLsgo) · Sub: swap to *sub: Preacher Curl, Leverage Machine* [▶ video](https://www.youtube.com/watch?v=M_uPvGrMx_o)
 // Armpits on top of the pad. Lower almost to straight arms, then curl. No shoulder movement. Weight includes the bar, about 8 kg.
-arms: Preacher Curl, EZ Bar / 4x8 15kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 8, 12)
+arms: Preacher Curl, EZ Bar / 4x8 15kg 75s / warmup: none / progress: dp(2.5kg, 8, 12)
 
 // ⚪ SUB for Preacher Curl · [▶ Watch](https://www.youtube.com/watch?v=M_uPvGrMx_o) · Hidden. Pick *sub: Preacher Curl, Leverage Machine* after Swap Exercise.
-sub: Preacher Curl, Leverage Machine / 4x8 25kg 45s / warmup: none / used: none / progress: dp(2.5kg, 8, 12)
+sub: Preacher Curl, Leverage Machine / 4x8 25kg 75s / warmup: none / used: none / progress: dp(2.5kg, 8, 12)
 
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=6Fzep104f0s) · Sub: swap to *sub: Skullcrusher, EZ Bar* [▶ video](https://www.youtube.com/watch?v=OQ4TWXkZjTc)
 // Elbows pinned to the sides. Push to lockout, let the forearms come up past 90° on the way back.
-arms: Triceps Pushdown, Cable / 4x10 25kg 45s / warmup: none / superset: B / progress: dp(2.5kg, 10, 15)
+arms: Triceps Pushdown, Cable / 4x10 25kg 75s / warmup: none / progress: dp(2.5kg, 10, 15)
 
 // ⚪ SUB for Triceps Pushdown · [▶ Watch](https://www.youtube.com/watch?v=OQ4TWXkZjTc) · Hidden. Pick *sub: Skullcrusher, EZ Bar* after Swap Exercise. Weight includes the bar, about 8 kg.
-sub: Skullcrusher, EZ Bar / 4x10 15kg 45s / warmup: none / used: none / progress: dp(2.5kg, 10, 15)
+sub: Skullcrusher, EZ Bar / 4x10 15kg 75s / warmup: none / used: none / progress: dp(2.5kg, 10, 15)
 
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=O-OBCfyh9Fw) · Sub: swap to *sub: Chest Fly, Cable* [▶ video](https://www.youtube.com/watch?v=4mfLHnFL0Uw)
 // Handles at chest height. Open wide to a stretch, then bring the arms together with a slight elbow bend.
@@ -134,7 +134,7 @@ sub: Lying Leg Curl, Leverage Machine / 3x8 35kg 120s / warmup: 1x6 60% / used: 
 
 
 // 🟢 **main:** dumbbell bench, chin-up, one-arm row.
-// 🟠 **arms:** Bayesian curl + dumbbell overhead extension, paired.
+// 🟠 **arms:** Bayesian curl, dumbbell overhead extension.
 // ⚪ **extra:** reverse pec deck, shrug, leg press. Cut here if short on time.
 // Machine taken? Tap the exercise, Swap Exercise, open the From Program tab. Its substitute is listed right under it, marked sub. It brings its own weight and progression.
 ## Day C
@@ -162,17 +162,17 @@ sub: Seated Row, Cable / 3x8 40kg 120s / warmup: none / used: none / progress: d
 
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=paM4Yo8fo8g) · Sub: swap to *sub: Hammer Curl* [▶ video](https://www.youtube.com/watch?v=XOEL4MgekYE)
 // Bayesian curl, one arm at a time. Low pulley behind you, step forward so the arm is stretched behind the torso. Upper arm fixed.
-arms: Bicep Curl, Cable / 4x8 12.5kg 45s / warmup: none / superset: C / progress: dp(2.5kg, 8, 12)
+arms: Bicep Curl, Cable / 4x8 12.5kg 75s / warmup: none / progress: dp(2.5kg, 8, 12)
 
 // ⚪ SUB for Bicep Curl · [▶ Watch](https://www.youtube.com/watch?v=XOEL4MgekYE) · Hidden. Pick *sub: Hammer Curl, Dumbbell* after Swap Exercise.
-sub: Hammer Curl, Dumbbell / 4x8 10kg 45s / warmup: none / used: none / progress: dp(2kg, 8, 12)
+sub: Hammer Curl, Dumbbell / 4x8 10kg 75s / warmup: none / used: none / progress: dp(2kg, 8, 12)
 
 // 🟠 ARMS · [▶ Watch](https://www.youtube.com/watch?v=YbX7Wd8jQ-Q) · Sub: swap to *sub: Skullcrusher, EZ Bar* [▶ video](https://www.youtube.com/watch?v=OQ4TWXkZjTc)
 // Both hands under one dumbbell, elbows pointing forward, lower behind the head to a deep stretch.
-arms: Triceps Extension, Dumbbell / 4x10 16kg 45s / warmup: none / superset: C / progress: dp(2kg, 10, 15)
+arms: Triceps Extension, Dumbbell / 4x10 16kg 75s / warmup: none / progress: dp(2kg, 10, 15)
 
 // ⚪ SUB for Triceps Extension · [▶ Watch](https://www.youtube.com/watch?v=OQ4TWXkZjTc) · Hidden. Pick *sub: Skullcrusher, EZ Bar* after Swap Exercise. Weight includes the bar, about 8 kg.
-sub: Skullcrusher, EZ Bar / 4x10 15kg 45s / warmup: none / used: none / progress: dp(2.5kg, 10, 15)
+sub: Skullcrusher, EZ Bar / 4x10 15kg 75s / warmup: none / used: none / progress: dp(2.5kg, 10, 15)
 
 // ⚪ EXTRA · [▶ Watch](https://www.youtube.com/watch?v=5YK4bgzXDp0) · Sub: swap to *sub: Face Pull* [▶ video](https://www.youtube.com/watch?v=-MODnZdnmAQ)
 // Chest on the pad, arms slightly bent, sweep the handles back until the arms are in line with the shoulders.
