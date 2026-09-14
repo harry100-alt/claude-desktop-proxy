@@ -14,12 +14,15 @@ For everything the app can do in general (features, full Liftoscript syntax, scr
 | `docs/liftosaur-tools/validate_subs.ts` | Swaps each hidden `used: none` substitute into a workout, completes it, and checks its progression fired. Also prints visible exercise counts per day. |
 | `docs/upper-body-3-day-plan.md` / `.html` | The human-readable plan. Keep exercises, sets, and links in sync with the program. |
 | `docs/liftosaur-reference.md` | General reference for the app and Liftoscript. Built from the official docs and changelog. |
+| `docs/liftosaur-tools/liftosaur_api.py` | REST API client: list/fetch/push programs, pull and review history, program stats. Needs `LIFTOSAUR_API_KEY`. |
 
 ## The user's setup
 
 - Units: kg. Free tier. Programs are pasted into the web editor in full text mode at their private program page (`liftosaur.com/user/p/...`, login-only, cannot be fetched).
 - Public share links look like `liftosaur.com/p/<id>` and can be fetched without login.
-- REST API and MCP server both require Premium and an API key starting `lftsk_`. Do not ask the user to paste a key into chat.
+- REST API and MCP server both require Premium and an API key starting `lftsk_`. The user is buying Premium and will provide a key. Preferred handover: the `LIFTOSAUR_API_KEY` environment variable on the claude.ai/code environment, never pasted in chat. If it was pasted, tell the user to regenerate it afterwards.
+- With the key set, `docs/liftosaur-tools/liftosaur_api.py` does everything: `history [days]` pulls and reviews workouts (completed vs target per set, per-exercise trend), `program` fetches the live program text, `push <file>` replaces the live program (no more pasting), `stats <file>` returns weekly sets per muscle from Liftosaur's own calculator. Base URL `https://www.liftosaur.com/api/v1`, Bearer auth, every response wrapped in `data`. History records are "Liftoscript Workouts" text: `date / program: "x" / dayName: "y" / duration: Ns / exercises: { Name, Equipment / <completed sets> / warmup: ... / target: <sets> }`.
+- Once the API works, the workflow is: edit `gen_program.py`, regenerate, validate, `push`. The user no longer pastes.
 - Chin-up weight is the machine assistance, so the program decrements it. Do not enable "Is assisting" or "Bodyweight for bar" in equipment settings, those apply to every Leverage Machine exercise.
 - Substitutes are hidden `used: none` program exercises with their own weight and progression; each visible exercise's note names which one to pick after Swap Exercise. See the substitutes section.
 - Group system: every exercise note starts with 🟢 MAIN (press and pulls, never skip), 🟠 ARMS (curls and triceps, no supersets, 75 sec rest; the user removed supersets on 2026-09-14), or ⚪ EXTRA (skippable). Exercises also carry `main:` / `arms:` / `extra:` labels. The user wants it obvious at a glance; do not add more tiers or rename them without asking.
